@@ -1,0 +1,41 @@
+.items a {
+  letter-spacing: 2px;
+  font-family: Comic Sans MS;
+  font-size: 23px;
+  color: rgb(0, 0, 94);
+  text-decoration: none;
+  /* position: center; */
+}
+
+.items a.activeLink {
+  color: rgb(68, 68, 68);
+  text-shadow: rgb(37, 37, 37) 0 0 1px;
+}
+.nav {
+  grid-area: n;
+  background-color: rgb(233, 235, 126);
+  background-image: linear-gradient(
+    rgba(237, 233, 243, 0.356),
+    rgba(321, 127, 221, 0.829)
+  );
+  display: block;
+  /* margin-top: 10px; */
+  margin: 10px 10px;
+  padding: 20px 10px;
+  /* margin-left: 10px; */
+}
+
+.nav div {
+  margin-bottom: 30px;
+  border-bottom: 1.5px solid #858585;
+}
+
+/* .fone-picture {
+  width: 100%;
+  height: 200px;
+}
+
+.fone-picture-color {
+  width: 15%;
+  height: auto;
+} */

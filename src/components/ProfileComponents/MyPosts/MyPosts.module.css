@@ -1,0 +1,19 @@
+button {
+  margin: 10px 10px;
+  color: rgb(15, 4, 4);
+  background: #eeff55;
+  text-transform: uppercase;
+  width: 200px;
+  height: 35px;
+  border-radius: 25px;
+}
+
+.posts {
+  margin-top: 20px;
+}
+
+textarea {
+  width: 30%;
+  height: 100px;
+  resize: none;
+}

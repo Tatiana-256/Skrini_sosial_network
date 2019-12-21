@@ -1,0 +1,14 @@
+/* .content {
+  grid-area: c;
+} */
+
+.fone_picture {
+  width: 100%;
+  height: 200px;
+}
+
+.fone_picture_color {
+  width: 10%;
+  height: auto;
+  border-radius: 50px;
+}

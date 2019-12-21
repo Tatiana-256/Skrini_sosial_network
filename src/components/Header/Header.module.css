@@ -1,0 +1,64 @@
+.header {
+  grid-area: h;
+  background-color: rgb(233, 235, 126);
+  background-image: linear-gradient(
+    rgba(321, 160, 221, 0.829),
+    rgba(237, 233, 243, 0.356)
+  );
+  margin-left: 10px;
+}
+
+.header img {
+  width: 90px;
+  height: 60px;
+  margin-left: 15px;
+}
+
+header div {
+  position: relative;
+  text-transform: uppercase;
+  word-spacing: 3px;
+  letter-spacing: 4px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 50px;
+  /* font-family: SourceSansPro-Bold; */
+  font-family: Comic Sans MS;
+  font-size: 30px;
+  color: #4b2354;
+  line-height: 1.2;
+}
+
+header div .social_log_in {
+  /* font-family: SourceSansPro-Bold; */
+  font-size: 30px;
+  color: #ddf8ab;
+  line-height: 1.2;
+  text-shadow: rgb(37, 37, 37) 0 0 4px;
+  margin-right: 20px;
+}
+
+/* 
+.header .social_name {
+  text-transform: uppercase;
+  word-spacing: 3px;
+  letter-spacing: 4px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 150px;
+  font-family: SourceSansPro-Bold;
+  font-size: 30px;
+  color: #4b2354;
+  line-height: 1.2;
+}
+.header .social_log_in {
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-family: SourceSansPro-Bold;
+  font-size: 30px;
+  color: #4b2354;
+  line-height: 1.2;
+} */
