@@ -3,39 +3,14 @@ const UNFOLLOW = "UNFOLLOW";
 const SET_USERS = "SET_USERS";
 const SET_CURRENT_PAGE = "SET_CURRENT_PAGE";
 const SET_TOTAL_USERS_COUNT = "SET_TOTAL_USERS_COUNT";
+const TOGGLE_IS_FETCHING = "TOGGLE_IS_FETCHING";
 
 let initialState = {
-  users: [
-    // {
-    //   id: 1,
-    //   followed: true,
-    //   fullName: "Tatiana Beznosiuk",
-    //   status: "Junior developer",
-    //   location: { city: "Kiyv", country: "Ukraine" },
-    //   image:
-    //     "https://cdn.psychologytoday.com/sites/default/files/styles/article-inline-half-caption/public/field_blog_entry_images/2018-09/shutterstock_648907024.jpg?itok=0hb44OrI"
-    // },
-    // {
-    //   id: 2,
-    //   followed: false,
-    //   fullName: "Olexandr Nashenko",
-    //   status: "Head of department",
-    //   location: { city: "Prague", country: "Czech Republic" },
-    //   image: "https://admin.bel-solar.by/wp-content/uploads/2018/10/ph1.jpeg"
-    // },
-    // {
-    //   id: 3,
-    //   followed: true,
-    //   fullName: "Maria Renkovich",
-    //   status: "HR",
-    //   location: { city: "Warshawa", country: "Poland" },
-    //   image:
-    //     "https://image.shutterstock.com/image-photo/positive-human-facial-expressions-emotions-260nw-640005181.jpg"
-    // }
-  ],
-  pageSize: 5,
+  users: [],
+  pageSize: 7,
   totalUsersCount: 0,
-  currentPage: 3
+  currentPage: 1,
+  isFetching: false
 };
 
 const usersReducer = (state = initialState, action) => {
@@ -69,21 +44,28 @@ const usersReducer = (state = initialState, action) => {
     case SET_TOTAL_USERS_COUNT: {
       return { ...state, totalUsersCount: action.count };
     }
+    case TOGGLE_IS_FETCHING: {
+      return { ...state, isFetching: action.isFetching };
+    }
     default:
       return state;
   }
 };
 
-export const followActionCreator = userId => ({ type: FOLLOW, userId });
-export const unfollowActionCreator = userId => ({ type: UNFOLLOW, userId });
-export const setUserActionCreator = users => ({ type: SET_USERS, users });
-export const setCurrentPageActionCreator = currentPage => ({
+export const follow = userId => ({ type: FOLLOW, userId });
+export const unfollow = userId => ({ type: UNFOLLOW, userId });
+export const setUser = users => ({ type: SET_USERS, users });
+export const setCurrentPage = currentPage => ({
   type: SET_CURRENT_PAGE,
   currentPage
 });
-export const setUsersTotalCountActionCreator = totalUsersCount => ({
+export const setUsersTotalCount = totalUsersCount => ({
   type: SET_TOTAL_USERS_COUNT,
   count: totalUsersCount
+});
+export const toggleIsFetching = isFetching => ({
+  type: TOGGLE_IS_FETCHING,
+  isFetching
 });
 
 export default usersReducer;

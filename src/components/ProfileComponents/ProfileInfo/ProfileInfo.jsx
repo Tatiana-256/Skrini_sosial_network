@@ -1,19 +1,17 @@
 import React from "react";
 import classes from "./ProfileInfo.module.css";
+import Preloader from "../../common/Preloader/Preloader";
 
-const ProfileInfo = () => {
+const ProfileInfo = props => {
+  if (!props.profile) {
+    return <Preloader />;
+  }
   return (
     <div>
-      {/* <div>
-        <img
-          className={classes.fone_picture}
-          // src="http://www.pics4learning.com/images/pics-banner1-1300.jpg"
-        />
-      </div> */}
       <div>
         <img
           className={classes.fone_picture_color}
-          src="https://processing.org/tutorials/pixels/imgs/tint1.jpg"
+          src={props.profile.photos.large}
         />
       </div>
     </div>
