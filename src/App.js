@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import Header from "./components/Header/Header";
 import Nav from "./components/Nav/Nav";
 import { BrowserRouter, Route } from "react-router-dom";
 import News from "./components/News/News";
@@ -10,15 +9,15 @@ import "./index";
 import DialogsContainer from "./components/Dialogs/DialogsContainer";
 import UsersContainer from "./components/Users/UsersContainer";
 import ProfileContainer from "./components/ProfileComponents/ProfileContainer";
+import HeaderContainer from "./components/Header/HeaderContainer";
 
 const App = props => {
   return (
     <div className="App-wrapper">
-      <Header />
+      <HeaderContainer />
       <Nav />
-      {/* <BestFriends/> */}
       <div className="app-wraper-content">
-        <Route path="/profile" render={() => <ProfileContainer />} />
+        <Route path="/profile/:userId?" render={() => <ProfileContainer />} />
         <Route path="/Dialogs" render={() => <DialogsContainer />} />
         <Route path="/Users" render={() => <UsersContainer />} />
         <Route path="/News" render={() => <News />} />

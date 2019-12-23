@@ -29,36 +29,12 @@ header div {
   line-height: 1.2;
 }
 
-header div .social_log_in {
+.social_log_in {
   /* font-family: SourceSansPro-Bold; */
+  text-decoration: none;
   font-size: 30px;
   color: #ddf8ab;
   line-height: 1.2;
   text-shadow: rgb(37, 37, 37) 0 0 4px;
   margin-right: 20px;
 }
-
-/* 
-.header .social_name {
-  text-transform: uppercase;
-  word-spacing: 3px;
-  letter-spacing: 4px;
-  float: right;
-  margin-top: 10px;
-  margin-right: 150px;
-  font-family: SourceSansPro-Bold;
-  font-size: 30px;
-  color: #4b2354;
-  line-height: 1.2;
-}
-.header .social_log_in {
-  word-spacing: 3px;
-  letter-spacing: 2px;
-  float: right;
-  margin-top: 10px;
-  margin-right: 20px;
-  font-family: SourceSansPro-Bold;
-  font-size: 30px;
-  color: #4b2354;
-  line-height: 1.2;
-} */
