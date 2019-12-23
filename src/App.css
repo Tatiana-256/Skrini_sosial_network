@@ -19,4 +19,5 @@
 .app-wraper-content {
   grid-area: c;
   padding: 7px;
+  display: block;
 }
