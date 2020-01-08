@@ -1,0 +1,2897 @@
+(this["webpackJsonpsocial-network"] = this["webpackJsonpsocial-network"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/App.css ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".App-wrapper {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  display: grid;\n  grid-area: h;\n  grid-gap: 20px;\n  grid-template-columns: 1fr 5fr;\n  grid-template-rows: 80px 1fr;\n  grid-template-areas: \"h h\" \"n c\";\n  background-image: url(https://fondos.io/wp-content/uploads/2019/01/horizontal-wallpapers-hd_5099.png);\n  background-image: linear-gradient(\n      rgba(237, 233, 243, 0.959),\n      rgba(167, 102, 167, 0.678)\n    ),\n    url(https://fondos.io/wp-content/uploads/2019/01/horizontal-wallpapers-hd_5099.png);\n  text-transform: uppercase;\n}\n.app-wraper-content {\n  grid-area: c;\n  padding: 7px;\n  display: block;\n}\n", ""]);
+
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Dialogs/Dialogs.module.css":
+/*!******************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Dialogs/Dialogs.module.css ***!
+  \******************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".Dialogs_dialogs__10CJ4 {\r\n  display: grid;\r\n  grid-template-columns: 1fr 3fr;\r\n}\r\n\r\n.Dialogs_dialogs_items__pNy5T,\r\n.Dialogs_message_items__sKlUB {\r\n  padding: 40px;\r\n}\r\n.Dialogs_dialog__10BJU {\r\n  margin-top: 10px;\r\n}\r\n\r\n.Dialogs_dialogs_items__pNy5T .Dialogs_active__2ekOR {\r\n  color: darkorchid;\r\n}\r\n\r\n.Dialogs_message__1BoiA {\r\n  margin-top: 10px;\r\n}\r\n", ""]);
+
+// Exports
+exports.locals = {
+	"dialogs": "Dialogs_dialogs__10CJ4",
+	"dialogs_items": "Dialogs_dialogs_items__pNy5T",
+	"message_items": "Dialogs_message_items__sKlUB",
+	"dialog": "Dialogs_dialog__10BJU",
+	"active": "Dialogs_active__2ekOR",
+	"message": "Dialogs_message__1BoiA"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Header/Header.module.css":
+/*!****************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Header/Header.module.css ***!
+  \****************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".Header_header__2CKRV {\n  grid-area: h;\n  background-color: rgb(233, 235, 126);\n  background-image: linear-gradient(\n    rgba(321, 160, 221, 0.829),\n    rgba(237, 233, 243, 0.356)\n  );\n  margin-left: 10px;\n}\n\n.Header_header__2CKRV img {\n  width: 90px;\n  height: 60px;\n  margin-left: 15px;\n}\n\nheader div {\n  position: relative;\n  text-transform: uppercase;\n  word-spacing: 3px;\n  letter-spacing: 4px;\n  float: right;\n  margin-top: 10px;\n  margin-right: 50px;\n  /* font-family: SourceSansPro-Bold; */\n  font-family: Comic Sans MS;\n  font-size: 30px;\n  color: #4b2354;\n  line-height: 1.2;\n}\n\n.Header_social_log_in__2avtA {\n  /* font-family: SourceSansPro-Bold; */\n  text-decoration: none;\n  font-size: 30px;\n  color: #ddf8ab;\n  line-height: 1.2;\n  text-shadow: rgb(37, 37, 37) 0 0 4px;\n  margin-right: 20px;\n}\n", ""]);
+
+// Exports
+exports.locals = {
+	"header": "Header_header__2CKRV",
+	"social_log_in": "Header_social_log_in__2avtA"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Music/Music.module.css":
+/*!**************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Music/Music.module.css ***!
+  \**************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".Music_stile__2_b_e {\n  letter-spacing: 2px;\n  font-family: Georgia, \"Times New Roman\", Times, serif;\n  font-size: 20px;\n  color: rgb(0, 0, 94);\n}\n", ""]);
+
+// Exports
+exports.locals = {
+	"stile": "Music_stile__2_b_e"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Nav/Nav.module.css":
+/*!**********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Nav/Nav.module.css ***!
+  \**********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".Nav_items__3qsWT a {\n  letter-spacing: 2px;\n  font-family: Comic Sans MS;\n  font-size: 23px;\n  color: rgb(0, 0, 94);\n  text-decoration: none;\n}\n\n.Nav_items__3qsWT a.Nav_activeLink__HV3Iw {\n  color: rgb(68, 68, 68);\n  text-shadow: rgb(37, 37, 37) 0 0 1px;\n}\n.Nav_nav__qE4fa {\n  grid-area: n;\n  background-color: rgb(233, 235, 126);\n  background-image: linear-gradient(\n    rgba(237, 233, 243, 0.356),\n    rgba(321, 127, 221, 0.829)\n  );\n  margin: 10px 10px;\n  padding: 20px 10px;\n}\n\n.Nav_nav__qE4fa div {\n  margin-bottom: 30px;\n  border-bottom: 1.5px solid #858585;\n}\n", ""]);
+
+// Exports
+exports.locals = {
+	"items": "Nav_items__3qsWT",
+	"activeLink": "Nav_activeLink__HV3Iw",
+	"nav": "Nav_nav__qE4fa"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/News/News.module.css":
+/*!************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/News/News.module.css ***!
+  \************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".News_stile__2paXM {\n  letter-spacing: 2px;\n  font-family: Georgia, \"Times New Roman\", Times, serif;\n  font-size: 20px;\n  color: rgb(0, 0, 94);\n}\n", ""]);
+
+// Exports
+exports.locals = {
+	"stile": "News_stile__2paXM"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/ProfileComponents/MyPosts/MyPosts.module.css":
+/*!************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/ProfileComponents/MyPosts/MyPosts.module.css ***!
+  \************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, "button {\r\n  margin: 10px 10px;\r\n  color: rgb(15, 4, 4);\r\n  background: #eeff55;\r\n  text-transform: uppercase;\r\n  width: 200px;\r\n  height: 35px;\r\n  border-radius: 25px;\r\n}\r\n\r\n.MyPosts_posts__1XZz9 {\r\n  margin-top: 20px;\r\n}\r\n\r\ntextarea {\r\n  width: 30%;\r\n  height: 100px;\r\n  resize: none;\r\n}\r\n", ""]);
+
+// Exports
+exports.locals = {
+	"posts": "MyPosts_posts__1XZz9"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/ProfileComponents/MyPosts/Post/Post.module.css":
+/*!**************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/ProfileComponents/MyPosts/Post/Post.module.css ***!
+  \**************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".Post_items__1prb9 {\r\n  color: #ffffff;\r\n}\r\n\r\n.Post_items__1prb9 img {\r\n  width: 150px;\r\n  border-radius: 45px;\r\n}\r\n", ""]);
+
+// Exports
+exports.locals = {
+	"items": "Post_items__1prb9"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/ProfileComponents/ProfileInfo/ProfileInfo.module.css":
+/*!********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/ProfileComponents/ProfileInfo/ProfileInfo.module.css ***!
+  \********************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".ProfileInfo_fone_picture__39XyE {\r\n  width: 100%;\r\n  height: 200px;\r\n}\r\n\r\n.ProfileInfo_fone_picture_color__1p9zZ {\r\n  width: 10%;\r\n  height: auto;\r\n  border-radius: 50px;\r\n}\r\n", ""]);
+
+// Exports
+exports.locals = {
+	"fone_picture": "ProfileInfo_fone_picture__39XyE",
+	"fone_picture_color": "ProfileInfo_fone_picture_color__1p9zZ"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Settings/Settings.module.css":
+/*!********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Settings/Settings.module.css ***!
+  \********************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".Settings_stile__3yDzq {\n  letter-spacing: 2px;\n  font-family: Georgia, \"Times New Roman\", Times, serif;\n  font-size: 20px;\n  color: rgb(0, 0, 94);\n}\n", ""]);
+
+// Exports
+exports.locals = {
+	"stile": "Settings_stile__3yDzq"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Users/Users.module.css":
+/*!**************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/Users/Users.module.css ***!
+  \**************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".Users_userPhoto__2UR6e {\r\n  width: 150px;\r\n  height: auto;\r\n  border-radius: 50px;\r\n  position: left;\r\n}\r\n\r\n.Users_selected__fQXuh {\r\n  font-weight: bold;\r\n  font-size: 20px;\r\n}\r\n\r\nspan {\r\n  padding: 2px;\r\n}\r\n", ""]);
+
+// Exports
+exports.locals = {
+	"userPhoto": "Users_userPhoto__2UR6e",
+	"selected": "Users_selected__fQXuh"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/index.css ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, "body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\",\n    \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\",\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\",\n    monospace;\n}\n", ""]);
+
+
+
+/***/ }),
+
+/***/ "./src/App.css":
+/*!*********************!*\
+  !*** ./src/App.css ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_Nav_Nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Nav/Nav */ "./src/components/Nav/Nav.jsx");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _components_News_News__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/News/News */ "./src/components/News/News.jsx");
+/* harmony import */ var _components_Music_Music__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Music/Music */ "./src/components/Music/Music.jsx");
+/* harmony import */ var _components_Settings_Settings__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/Settings/Settings */ "./src/components/Settings/Settings.jsx");
+/* harmony import */ var _index__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./index */ "./src/index.js");
+/* harmony import */ var _components_Dialogs_DialogsContainer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/Dialogs/DialogsContainer */ "./src/components/Dialogs/DialogsContainer.jsx");
+/* harmony import */ var _components_Users_UsersContainer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/Users/UsersContainer */ "./src/components/Users/UsersContainer.jsx");
+/* harmony import */ var _components_ProfileComponents_ProfileContainer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/ProfileComponents/ProfileContainer */ "./src/components/ProfileComponents/ProfileContainer.jsx");
+/* harmony import */ var _components_Header_HeaderContainer__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/Header/HeaderContainer */ "./src/components/Header/HeaderContainer.jsx");
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\App.js";
+
+
+
+
+
+
+
+
+
+
+
+
+
+const App = props => {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "App-wrapper",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header_HeaderContainer__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Nav_Nav__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "app-wraper-content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Route"], {
+    path: "/profile/:userId?",
+    render: () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ProfileComponents_ProfileContainer__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: undefined
+    }),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Route"], {
+    path: "/Dialogs",
+    render: () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Dialogs_DialogsContainer__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21
+      },
+      __self: undefined
+    }),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Route"], {
+    path: "/Users",
+    render: () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Users_UsersContainer__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22
+      },
+      __self: undefined
+    }),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Route"], {
+    path: "/News",
+    render: () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_News_News__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23
+      },
+      __self: undefined
+    }),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Route"], {
+    path: "/Music",
+    render: () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Music_Music__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: undefined
+    }),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Route"], {
+    path: "/Settings",
+    render: () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Settings_Settings__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25
+      },
+      __self: undefined
+    }),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: undefined
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ }),
+
+/***/ "./src/assets/images.png":
+/*!*******************************!*\
+  !*** ./src/assets/images.png ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/images.a1d40c38.png";
+
+/***/ }),
+
+/***/ "./src/assets/loading.svg":
+/*!********************************!*\
+  !*** ./src/assets/loading.svg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/loading.3eb3f5ee.svg";
+
+/***/ }),
+
+/***/ "./src/components/Dialogs/DialogItem/DialogItem.jsx":
+/*!**********************************************************!*\
+  !*** ./src/components/Dialogs/DialogItem/DialogItem.jsx ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Dialogs.module.css */ "./src/components/Dialogs/Dialogs.module.css");
+/* harmony import */ var _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Dialogs\\DialogItem\\DialogItem.jsx";
+
+
+
+
+const DialogItem = props => {
+  let addres = "/dialogs/" + props.id;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.dialog + " " + _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.active,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+    to: addres,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: undefined
+  }, props.name));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (DialogItem);
+
+/***/ }),
+
+/***/ "./src/components/Dialogs/Dialogs.jsx":
+/*!********************************************!*\
+  !*** ./src/components/Dialogs/Dialogs.jsx ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Dialogs.module.css */ "./src/components/Dialogs/Dialogs.module.css");
+/* harmony import */ var _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _DialogItem_DialogItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./DialogItem/DialogItem */ "./src/components/Dialogs/DialogItem/DialogItem.jsx");
+/* harmony import */ var _Message_Message__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Message/Message */ "./src/components/Dialogs/Message/Message.jsx");
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Dialogs\\Dialogs.jsx";
+
+
+
+
+
+const Dialogs = props => {
+  let dialogsElements = props.dialogsData.map(dialog => {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_DialogItem_DialogItem__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      name: dialog.name,
+      id: dialog.id,
+      key: dialog.id,
+      image: dialog.image,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9
+      },
+      __self: undefined
+    });
+  });
+  let messageElements = props.messagesData.map(message => {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Message_Message__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      message: message.message,
+      key: message.id,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: undefined
+    });
+  });
+  let newMessage = react__WEBPACK_IMPORTED_MODULE_0___default.a.createRef();
+
+  let addMessage = () => {
+    props.addMessage();
+  };
+
+  let onMessageChange = newMessage => {
+    let text = newMessage.target.value;
+    props.onMessageChange(text);
+  };
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.dialogs,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.dialogs_items,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: undefined
+  }, dialogsElements), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.message_items,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: undefined
+  }, messageElements, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
+    placeholder: "Enter your message",
+    onChange: onMessageChange,
+    ref: newMessage,
+    value: props.newMessageText,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    onClick: addMessage,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: undefined
+  }, "Add new message")))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Dialogs);
+
+/***/ }),
+
+/***/ "./src/components/Dialogs/Dialogs.module.css":
+/*!***************************************************!*\
+  !*** ./src/components/Dialogs/Dialogs.module.css ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Dialogs.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Dialogs/Dialogs.module.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Dialogs.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Dialogs/Dialogs.module.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Dialogs.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Dialogs/Dialogs.module.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/components/Dialogs/DialogsContainer.jsx":
+/*!*****************************************************!*\
+  !*** ./src/components/Dialogs/DialogsContainer.jsx ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _redux_dialogs_reducer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../redux/dialogs-reducer */ "./src/components/redux/dialogs-reducer.js");
+/* harmony import */ var _Dialogs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Dialogs */ "./src/components/Dialogs/Dialogs.jsx");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
+
+
+
+let mapStateToProps = state => {
+  return {
+    dialogsData: state.dialogsPage.dialogsData,
+    messagesData: state.dialogsPage.messagesData,
+    newMessageText: state.dialogsPage.newMessageText
+  };
+};
+
+let mapDispatchToProps = dispatch => {
+  return {
+    addMessage: () => {
+      dispatch(Object(_redux_dialogs_reducer__WEBPACK_IMPORTED_MODULE_0__["addMessageActionCreator"])());
+    },
+    onMessageChange: text => {
+      dispatch(Object(_redux_dialogs_reducer__WEBPACK_IMPORTED_MODULE_0__["updateNewMessageChangeActionCreator"])(text));
+    }
+  };
+};
+
+const DialogsContainer = Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps, mapDispatchToProps)(_Dialogs__WEBPACK_IMPORTED_MODULE_1__["default"]);
+/* harmony default export */ __webpack_exports__["default"] = (DialogsContainer);
+
+/***/ }),
+
+/***/ "./src/components/Dialogs/Message/Message.jsx":
+/*!****************************************************!*\
+  !*** ./src/components/Dialogs/Message/Message.jsx ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Dialogs.module.css */ "./src/components/Dialogs/Dialogs.module.css");
+/* harmony import */ var _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Dialogs\\Message\\Message.jsx";
+
+
+
+const Message = props => {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.message,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: undefined
+  }, props.message);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Message);
+
+/***/ }),
+
+/***/ "./src/components/Header/Header.jsx":
+/*!******************************************!*\
+  !*** ./src/components/Header/Header.jsx ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Header_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header.module.css */ "./src/components/Header/Header.module.css");
+/* harmony import */ var _Header_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Header_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Header\\Header.jsx";
+
+
+
+
+const Header = props => {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
+    className: _Header_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.header,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Header_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.social_log_in,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: undefined
+  }, props.isAuth ? props.login : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+    to: "/login",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: undefined
+  }, "Log in")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Header_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.social_name,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: undefined
+  }, "Skrini")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./src/components/Header/Header.module.css":
+/*!*************************************************!*\
+  !*** ./src/components/Header/Header.module.css ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Header.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Header/Header.module.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Header.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Header/Header.module.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Header.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Header/Header.module.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/components/Header/HeaderContainer.jsx":
+/*!***************************************************!*\
+  !*** ./src/components/Header/HeaderContainer.jsx ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./src/components/Header/Header.jsx");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _redux_auth_reducer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../redux/auth-reducer */ "./src/components/redux/auth-reducer.js");
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Header\\HeaderContainer.jsx";
+
+
+
+
+
+
+class HeaderContainer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  componentDidMount() {
+    axios__WEBPACK_IMPORTED_MODULE_2__["get"]( // ()
+    "https://social-network.samuraijs.com//api/1.0//auth/me", {
+      withCredentials: true
+    }).then(response => {
+      if (response.data.resultCode === 0) {
+        let _response$data$data = response.data.data,
+            id = _response$data$data.id,
+            email = _response$data$data.email,
+            login = _response$data$data.login;
+        this.props.setAuthUserData(id, email, login);
+      }
+    });
+  }
+
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], Object.assign({}, this.props, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: this
+    }));
+  }
+
+}
+
+const mapStateToProps = state => ({
+  isAuth: state.auth.isAuth,
+  login: state.auth.login
+});
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, {
+  setAuthUserData: _redux_auth_reducer__WEBPACK_IMPORTED_MODULE_4__["setAuthUserData"]
+})(HeaderContainer));
+
+/***/ }),
+
+/***/ "./src/components/Music/Music.jsx":
+/*!****************************************!*\
+  !*** ./src/components/Music/Music.jsx ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Music_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Music.module.css */ "./src/components/Music/Music.module.css");
+/* harmony import */ var _Music_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Music_module_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Music\\Music.jsx";
+
+
+
+const Music = props => {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Music_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.stile,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: undefined
+  }, "There will be music");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Music);
+
+/***/ }),
+
+/***/ "./src/components/Music/Music.module.css":
+/*!***********************************************!*\
+  !*** ./src/components/Music/Music.module.css ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Music.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Music/Music.module.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Music.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Music/Music.module.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Music.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Music/Music.module.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/components/Nav/Nav.jsx":
+/*!************************************!*\
+  !*** ./src/components/Nav/Nav.jsx ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Nav_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Nav.module.css */ "./src/components/Nav/Nav.module.css");
+/* harmony import */ var _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Nav_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Nav\\Nav.jsx";
+
+
+
+
+const Nav = () => {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+    className: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.nav,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.items,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+    to: "/Profile",
+    activeClassName: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.activeLink,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: undefined
+  }, "Profile")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.items,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+    to: "/Dialogs",
+    activeClassName: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.activeLink,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: undefined
+  }, "Message")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.items,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+    to: "/News",
+    activeClassName: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.activeLink,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: undefined
+  }, "News")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.items,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+    to: "/Music",
+    activeClassName: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.activeLink,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: undefined
+  }, "Music")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.items,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+    to: "/Settings",
+    activeClassName: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.activeLink,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: undefined
+  }, "Settings")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.items,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+    to: "/Users",
+    activeClassName: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.activeLink,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: undefined
+  }, "Users")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Nav);
+
+/***/ }),
+
+/***/ "./src/components/Nav/Nav.module.css":
+/*!*******************************************!*\
+  !*** ./src/components/Nav/Nav.module.css ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Nav.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Nav/Nav.module.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Nav.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Nav/Nav.module.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Nav.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Nav/Nav.module.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/components/News/News.jsx":
+/*!**************************************!*\
+  !*** ./src/components/News/News.jsx ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _News_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./News.module.css */ "./src/components/News/News.module.css");
+/* harmony import */ var _News_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_News_module_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\News\\News.jsx";
+
+
+
+const News = props => {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _News_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.stile,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: undefined
+  }, "There will be News");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (News);
+
+/***/ }),
+
+/***/ "./src/components/News/News.module.css":
+/*!*********************************************!*\
+  !*** ./src/components/News/News.module.css ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./News.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/News/News.module.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./News.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/News/News.module.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./News.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/News/News.module.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/components/ProfileComponents/MyPosts/MyPosts.jsx":
+/*!**************************************************************!*\
+  !*** ./src/components/ProfileComponents/MyPosts/MyPosts.jsx ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _MyPosts_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MyPosts.module.css */ "./src/components/ProfileComponents/MyPosts/MyPosts.module.css");
+/* harmony import */ var _MyPosts_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_MyPosts_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Post_Post__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Post/Post */ "./src/components/ProfileComponents/MyPosts/Post/Post.jsx");
+/* harmony import */ var _redux_profile_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../redux/profile-reducer */ "./src/components/redux/profile-reducer.js");
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\ProfileComponents\\MyPosts\\MyPosts.jsx";
+
+
+
+
+
+const MyPosts = props => {
+  let onePost = props.posts.map(post => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Post_Post__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    m: post.message,
+    likecount: post.likecount,
+    image: post.image,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: undefined
+  }));
+  let newPostElement = react__WEBPACK_IMPORTED_MODULE_0___default.a.createRef();
+
+  let onaAddPost = () => {
+    props.addPost(); // props.dispatch(addPostActionCreator());
+  };
+
+  let onPostChange = () => {
+    let text = newPostElement.current.value;
+    props.updateNewPostTextActionCreator(text); // props.dispatch(updateNewPostTextActionCreator(text));
+  };
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: undefined
+  }, "my post", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
+    onChange: onPostChange,
+    ref: newPostElement,
+    value: props.newPostText,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: undefined
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    onClick: onaAddPost,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: undefined
+  }, "Add new post"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _MyPosts_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.posts,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: undefined
+  }, onePost));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (MyPosts);
+
+/***/ }),
+
+/***/ "./src/components/ProfileComponents/MyPosts/MyPosts.module.css":
+/*!*********************************************************************!*\
+  !*** ./src/components/ProfileComponents/MyPosts/MyPosts.module.css ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./MyPosts.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/ProfileComponents/MyPosts/MyPosts.module.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./MyPosts.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/ProfileComponents/MyPosts/MyPosts.module.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./MyPosts.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/ProfileComponents/MyPosts/MyPosts.module.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/components/ProfileComponents/MyPosts/MyPostsContainer.jsx":
+/*!***********************************************************************!*\
+  !*** ./src/components/ProfileComponents/MyPosts/MyPostsContainer.jsx ***!
+  \***********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _redux_profile_reducer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../redux/profile-reducer */ "./src/components/redux/profile-reducer.js");
+/* harmony import */ var _MyPosts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MyPosts */ "./src/components/ProfileComponents/MyPosts/MyPosts.jsx");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
+
+
+
+
+const mapStateToProps = state => {
+  return {
+    posts: state.profilePage.postData,
+    newPostText: state.profilePage.newPostText
+  };
+};
+
+const mapDispatchToProps = dispatch => {
+  return {
+    addPost: () => {
+      dispatch(Object(_redux_profile_reducer__WEBPACK_IMPORTED_MODULE_1__["addPostActionCreator"])());
+    },
+    updateNewPostTextActionCreator: text => {
+      dispatch(Object(_redux_profile_reducer__WEBPACK_IMPORTED_MODULE_1__["updateNewPostTextActionCreator"])(text));
+    }
+  };
+};
+
+const MyPostsContainer = Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, mapDispatchToProps)(_MyPosts__WEBPACK_IMPORTED_MODULE_2__["default"]);
+/* harmony default export */ __webpack_exports__["default"] = (MyPostsContainer);
+
+/***/ }),
+
+/***/ "./src/components/ProfileComponents/MyPosts/Post/Post.jsx":
+/*!****************************************************************!*\
+  !*** ./src/components/ProfileComponents/MyPosts/Post/Post.jsx ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Post_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Post.module.css */ "./src/components/ProfileComponents/MyPosts/Post/Post.module.css");
+/* harmony import */ var _Post_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Post_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var util__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! util */ "./node_modules/node-libs-browser/node_modules/util/util.js");
+/* harmony import */ var util__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(util__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\ProfileComponents\\MyPosts\\Post\\Post.jsx";
+
+
+
+
+const Post = props => {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Post_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.items,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: props.image,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: undefined
+  }), props.m), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: undefined
+  }, "likes "), props.likecount));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Post); // lass Post extends React.Component {
+//   render(props) {
+//     return (
+
+/***/ }),
+
+/***/ "./src/components/ProfileComponents/MyPosts/Post/Post.module.css":
+/*!***********************************************************************!*\
+  !*** ./src/components/ProfileComponents/MyPosts/Post/Post.module.css ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../../node_modules/postcss-loader/src??postcss!./Post.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/ProfileComponents/MyPosts/Post/Post.module.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../../node_modules/postcss-loader/src??postcss!./Post.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/ProfileComponents/MyPosts/Post/Post.module.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../../node_modules/postcss-loader/src??postcss!./Post.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/ProfileComponents/MyPosts/Post/Post.module.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/components/ProfileComponents/ProfileComponent.jsx":
+/*!***************************************************************!*\
+  !*** ./src/components/ProfileComponents/ProfileComponent.jsx ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _ProfileInfo_ProfileInfo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProfileInfo/ProfileInfo */ "./src/components/ProfileComponents/ProfileInfo/ProfileInfo.jsx");
+/* harmony import */ var _MyPosts_MyPostsContainer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MyPosts/MyPostsContainer */ "./src/components/ProfileComponents/MyPosts/MyPostsContainer.jsx");
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\ProfileComponents\\ProfileComponent.jsx";
+
+
+
+
+const Profile = props => {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ProfileInfo_ProfileInfo__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    profile: props.profile,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: undefined
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_MyPosts_MyPostsContainer__WEBPACK_IMPORTED_MODULE_2__["default"] // store={props.store}
+  , {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: undefined
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Profile);
+
+/***/ }),
+
+/***/ "./src/components/ProfileComponents/ProfileContainer.jsx":
+/*!***************************************************************!*\
+  !*** ./src/components/ProfileComponents/ProfileContainer.jsx ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _ProfileComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProfileComponent */ "./src/components/ProfileComponents/ProfileComponent.jsx");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _redux_profile_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../redux/profile-reducer */ "./src/components/redux/profile-reducer.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\ProfileComponents\\ProfileContainer.jsx";
+
+
+
+
+
+
+
+class ProfileContainer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  componentDidMount() {
+    let userId = this.props.match.params.userId;
+
+    if (!userId) {
+      userId = 5;
+    }
+
+    axios__WEBPACK_IMPORTED_MODULE_4__["get"]( // ()
+    "https://social-network.samuraijs.com//api/1.0/profile/".concat(userId)).then(response => {
+      this.props.setUserProfile(response.data);
+    });
+  }
+
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ProfileComponent__WEBPACK_IMPORTED_MODULE_1__["default"], Object.assign({}, this.props, {
+      profile: this.props.profile,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27
+      },
+      __self: this
+    })));
+  }
+
+}
+
+let mapStateToProps = state => ({
+  profile: state.profilePage.profile
+});
+
+let WithUrlDataContainerComponent = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["withRouter"])(ProfileContainer);
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps, {
+  setUserProfile: _redux_profile_reducer__WEBPACK_IMPORTED_MODULE_3__["setUserProfile"]
+})(WithUrlDataContainerComponent));
+
+/***/ }),
+
+/***/ "./src/components/ProfileComponents/ProfileInfo/ProfileInfo.jsx":
+/*!**********************************************************************!*\
+  !*** ./src/components/ProfileComponents/ProfileInfo/ProfileInfo.jsx ***!
+  \**********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _ProfileInfo_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProfileInfo.module.css */ "./src/components/ProfileComponents/ProfileInfo/ProfileInfo.module.css");
+/* harmony import */ var _ProfileInfo_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_ProfileInfo_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _common_Preloader_Preloader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../common/Preloader/Preloader */ "./src/components/common/Preloader/Preloader.js");
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\ProfileComponents\\ProfileInfo\\ProfileInfo.jsx";
+
+
+
+
+const ProfileInfo = props => {
+  if (!props.profile) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common_Preloader_Preloader__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7
+      },
+      __self: undefined
+    });
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: _ProfileInfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.fone_picture_color,
+    src: props.profile.photos.large,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: undefined
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (ProfileInfo);
+
+/***/ }),
+
+/***/ "./src/components/ProfileComponents/ProfileInfo/ProfileInfo.module.css":
+/*!*****************************************************************************!*\
+  !*** ./src/components/ProfileComponents/ProfileInfo/ProfileInfo.module.css ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./ProfileInfo.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/ProfileComponents/ProfileInfo/ProfileInfo.module.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./ProfileInfo.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/ProfileComponents/ProfileInfo/ProfileInfo.module.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../../node_modules/postcss-loader/src??postcss!./ProfileInfo.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/ProfileComponents/ProfileInfo/ProfileInfo.module.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/components/Settings/Settings.jsx":
+/*!**********************************************!*\
+  !*** ./src/components/Settings/Settings.jsx ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Settings_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Settings.module.css */ "./src/components/Settings/Settings.module.css");
+/* harmony import */ var _Settings_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Settings_module_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Settings\\Settings.jsx";
+
+
+
+const Settings = props => {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Settings_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.stile,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: undefined
+  }, "There will be Settings");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Settings);
+
+/***/ }),
+
+/***/ "./src/components/Settings/Settings.module.css":
+/*!*****************************************************!*\
+  !*** ./src/components/Settings/Settings.module.css ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Settings.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Settings/Settings.module.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Settings.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Settings/Settings.module.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Settings.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Settings/Settings.module.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/components/Users/Users.js":
+/*!***************************************!*\
+  !*** ./src/components/Users/Users.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Users_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Users.module.css */ "./src/components/Users/Users.module.css");
+/* harmony import */ var _Users_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Users_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _assets_images_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/images.png */ "./src/assets/images.png");
+/* harmony import */ var _assets_images_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_images_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_4__);
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Users\\Users.js";
+
+
+
+
+
+
+let Users = props => {
+  let pagesCount = Math.ceil(props.totalUsersCount / props.pageSize);
+  let pages = [];
+
+  for (let i = 1; i <= pagesCount; i++) {
+    pages.push(i);
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Users_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.wrapper,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Users_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pages,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: undefined
+  }, pages.map(p => {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      className: props.currentPage === p && _Users_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.selected,
+      onClick: e => {
+        props.onPageChanged(p);
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: undefined
+    }, p);
+  })), props.users.map(u => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    key: u.id,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: _Users_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.left,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["NavLink"], {
+    to: "/profile/" + u.id,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: u.photos.small != null ? u.photos.small : _assets_images_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    className: _Users_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.userPhoto,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: undefined
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: undefined
+  }, u.followed ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: _Users_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.but,
+    onClick: () => {
+      axios__WEBPACK_IMPORTED_MODULE_4__["delete"]( // ()
+      "https://social-network.samuraijs.com//api/1.0/follow/".concat(u.id), {
+        withCredentials: true,
+        headers: {
+          "API-KEY": "90bcba07-a798-42d0-8eac-4c6c5530cfd1"
+        }
+      }).then(response => {
+        if (response.data.resultCode == 0) {
+          props.unfollow(u.id);
+        }
+      });
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: undefined
+  }, "Unfollow") : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: _Users_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.but,
+    onClick: () => {
+      axios__WEBPACK_IMPORTED_MODULE_4__["post"]( // ()
+      "https://social-network.samuraijs.com//api/1.0/follow/".concat(u.id), {}, {
+        withCredentials: true,
+        headers: {
+          "API-KEY": "90bcba07-a798-42d0-8eac-4c6c5530cfd1"
+        }
+      }).then(response => {
+        if (response.data.resultCode == 0) {
+          props.follow(u.id);
+        }
+      });
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67
+    },
+    __self: undefined
+  }, "Follow"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: _Users_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.right,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96
+    },
+    __self: undefined
+  }, u.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97
+    },
+    __self: undefined
+  }, u.status)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
+    },
+    __self: undefined
+  }, "u.location.city"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: undefined
+  }, "u.location.country"))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Users);
+
+/***/ }),
+
+/***/ "./src/components/Users/Users.module.css":
+/*!***********************************************!*\
+  !*** ./src/components/Users/Users.module.css ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Users.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Users/Users.module.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Users.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Users/Users.module.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-4-1!../../../node_modules/postcss-loader/src??postcss!./Users.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Users/Users.module.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/components/Users/UsersContainer.jsx":
+/*!*************************************************!*\
+  !*** ./src/components/Users/UsersContainer.jsx ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _redux_users_reducer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../redux/users-reducer */ "./src/components/redux/users-reducer.js");
+/* harmony import */ var _Users__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Users */ "./src/components/Users/Users.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _common_Preloader_Preloader__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../common/Preloader/Preloader */ "./src/components/common/Preloader/Preloader.js");
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Users\\UsersContainer.jsx";
+
+
+
+
+
+
+
+class UsersContainer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(...args) {
+    super(...args);
+
+    this.onPageChanged = pageNumber => {
+      this.props.toggleIsFetching(true);
+      this.props.setCurrentPage(pageNumber);
+      axios__WEBPACK_IMPORTED_MODULE_4__["get"]( // ()
+      "https://social-network.samuraijs.com//api/1.0/users?page=".concat(pageNumber, "&count=").concat(this.props.pageSize), {
+        withCredentials: true
+      }).then(response => {
+        this.props.toggleIsFetching(false);
+        this.props.setUser(response.data.items);
+      });
+    };
+  }
+
+  componentDidMount() {
+    this.props.toggleIsFetching(true);
+    axios__WEBPACK_IMPORTED_MODULE_4__["get"]("https://social-network.samuraijs.com//api/1.0/users?page=".concat(this.props.currentPage, "&count=").concat(this.props.pageSize), {
+      withCredentials: true
+    }).then(response => {
+      this.props.toggleIsFetching(false);
+      this.props.setUser(response.data.items);
+      this.props.setUsersTotalCount(response.data.totalCount);
+    });
+  }
+
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, this.props.isFetching ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common_Preloader_Preloader__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 48
+      },
+      __self: this
+    }) : null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Users__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      totalUsersCount: this.props.totalUsersCount,
+      pageSize: this.props.pageSize,
+      users: this.props.users,
+      currentPage: this.props.currentPage,
+      onPageChanged: this.onPageChanged,
+      unfollow: this.props.unfollow,
+      follow: this.props.follow,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 49
+      },
+      __self: this
+    }));
+  }
+
+}
+
+let mapStateToProps = state => {
+  return {
+    users: state.usersPage.users,
+    pageSize: state.usersPage.pageSize,
+    totalUsersCount: state.usersPage.totalUsersCount,
+    currentPage: state.usersPage.currentPage,
+    isFetching: state.usersPage.isFetching
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, {
+  follow: _redux_users_reducer__WEBPACK_IMPORTED_MODULE_2__["follow"],
+  unfollow: _redux_users_reducer__WEBPACK_IMPORTED_MODULE_2__["unfollow"],
+  setUser: _redux_users_reducer__WEBPACK_IMPORTED_MODULE_2__["setUser"],
+  setCurrentPage: _redux_users_reducer__WEBPACK_IMPORTED_MODULE_2__["setCurrentPage"],
+  setUsersTotalCount: _redux_users_reducer__WEBPACK_IMPORTED_MODULE_2__["setUsersTotalCount"],
+  toggleIsFetching: _redux_users_reducer__WEBPACK_IMPORTED_MODULE_2__["toggleIsFetching"]
+})(UsersContainer));
+
+/***/ }),
+
+/***/ "./src/components/common/Preloader/Preloader.js":
+/*!******************************************************!*\
+  !*** ./src/components/common/Preloader/Preloader.js ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _assets_loading_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../assets/loading.svg */ "./src/assets/loading.svg");
+/* harmony import */ var _assets_loading_svg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_loading_svg__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\common\\Preloader\\Preloader.js";
+
+
+
+let Preloader = props => {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: undefined
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_loading_svg__WEBPACK_IMPORTED_MODULE_1___default.a,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: undefined
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Preloader);
+
+/***/ }),
+
+/***/ "./src/components/redux/auth-reducer.js":
+/*!**********************************************!*\
+  !*** ./src/components/redux/auth-reducer.js ***!
+  \**********************************************/
+/*! exports provided: setAuthUserData, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setAuthUserData", function() { return setAuthUserData; });
+/* harmony import */ var C_Users_Desktop_programing_Social_Skrini_social_network_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { Object(C_Users_Desktop_programing_Social_Skrini_social_network_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+const SET_USER_DATA = "SET_USER_DATA";
+let initialState = {
+  userId: null,
+  email: null,
+  login: null,
+  isAuth: false
+};
+
+const authReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case SET_USER_DATA:
+      {
+        return _objectSpread({}, state, {}, action.data, {
+          isAuth: true
+        });
+      }
+
+    default:
+      return state;
+  }
+};
+
+const setAuthUserData = (userId, email, login) => ({
+  type: SET_USER_DATA,
+  data: {
+    userId,
+    email,
+    login
+  }
+});
+/* harmony default export */ __webpack_exports__["default"] = (authReducer);
+
+/***/ }),
+
+/***/ "./src/components/redux/dialogs-reducer.js":
+/*!*************************************************!*\
+  !*** ./src/components/redux/dialogs-reducer.js ***!
+  \*************************************************/
+/*! exports provided: addMessageActionCreator, updateNewMessageChangeActionCreator, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "addMessageActionCreator", function() { return addMessageActionCreator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "updateNewMessageChangeActionCreator", function() { return updateNewMessageChangeActionCreator; });
+/* harmony import */ var C_Users_Desktop_programing_Social_Skrini_social_network_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./store */ "./src/components/redux/store.js");
+
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { Object(C_Users_Desktop_programing_Social_Skrini_social_network_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+
+const ADD_MESSAGE = "ADD-MESSAGE";
+const UPDATE_NEW_MESSAGE_TEXT = "UPDATE-NEW-MESSAGE-TEXT";
+let initialState = {
+  dialogsData: [{
+    id: 1,
+    name: "Tania",
+    image: "https://telegraf.com.ua/files/2019/06/portrait-2865605_960_720.jpg"
+  }, {
+    id: 2,
+    name: "Sasha",
+    image: "https://media.istockphoto.com/photos/reflections-in-lake-matheson-picture-id535204076?k=6&m=535204076&s=612x612&w=0&h=isL2lHZq41HcdyWGFBE3X800JTOxOCqahQBj5K_Kv7Y="
+  }, {
+    id: 3,
+    name: "Inna",
+    image: "https://jooinn.com/images/girl-162.jpg"
+  }],
+  messagesData: [{
+    id: 1,
+    message: "Hey you"
+  }, {
+    id: 2,
+    message: "How are you?"
+  }, {
+    id: 3,
+    message: "What do you do?"
+  }],
+  newMessageText: ""
+};
+
+const dialogsReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case ADD_MESSAGE:
+      {
+        let newMessage = {
+          id: 3,
+          message: state.newMessageText
+        };
+        return _objectSpread({}, state, {
+          newMessageText: "",
+          messagesData: [...state.messagesData, newMessage]
+        });
+      }
+
+    case UPDATE_NEW_MESSAGE_TEXT:
+      {
+        return _objectSpread({}, state, {
+          newMessageText: action.newTextMessage
+        });
+      }
+
+    default:
+      return state;
+  }
+};
+
+const addMessageActionCreator = () => ({
+  type: ADD_MESSAGE
+});
+const updateNewMessageChangeActionCreator = text => ({
+  type: UPDATE_NEW_MESSAGE_TEXT,
+  newTextMessage: text
+});
+/* harmony default export */ __webpack_exports__["default"] = (dialogsReducer);
+
+/***/ }),
+
+/***/ "./src/components/redux/profile-reducer.js":
+/*!*************************************************!*\
+  !*** ./src/components/redux/profile-reducer.js ***!
+  \*************************************************/
+/*! exports provided: addPostActionCreator, updateNewPostTextActionCreator, setUserProfile, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "addPostActionCreator", function() { return addPostActionCreator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "updateNewPostTextActionCreator", function() { return updateNewPostTextActionCreator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setUserProfile", function() { return setUserProfile; });
+/* harmony import */ var C_Users_Desktop_programing_Social_Skrini_social_network_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { Object(C_Users_Desktop_programing_Social_Skrini_social_network_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+const ADD_POST = "ADD-POST";
+const UPDATE_NEW_POST_TEXT = "UPDATE-NEW-POST-TEXT";
+const SET_USER_PROFILE = "SET_USER_PROFILE";
+let initialState = {
+  postData: [{
+    id: 1,
+    message: "Hi everyone. I`m happy to be there",
+    likecount: 12,
+    image: "https://images.pexels.com/photos/371589/pexels-photo-371589.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+  }, {
+    id: 2,
+    message: "I`m new one",
+    likecount: 16,
+    image: "https://images.hdrsoft.com/images/lighthouse/thumbs/hdr-vibrant.jpg"
+  }],
+  newPostText: "",
+  profile: null
+};
+
+const profileReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case ADD_POST:
+      {
+        let newPost = {
+          id: 3,
+          message: state.newPostText,
+          likecount: 15
+        };
+        return _objectSpread({}, state, {
+          postData: [...state.postData, newPost],
+          newPostText: ""
+        });
+      }
+
+    case UPDATE_NEW_POST_TEXT:
+      {
+        return _objectSpread({}, state, {
+          newPostText: action.newText
+        });
+      }
+
+    case SET_USER_PROFILE:
+      {
+        return _objectSpread({}, state, {
+          profile: action.profile
+        });
+      }
+
+    default:
+      return state;
+  }
+};
+
+const addPostActionCreator = () => ({
+  type: ADD_POST
+});
+const updateNewPostTextActionCreator = text => ({
+  type: UPDATE_NEW_POST_TEXT,
+  newText: text
+});
+const setUserProfile = profile => ({
+  type: SET_USER_PROFILE,
+  profile
+});
+/* harmony default export */ __webpack_exports__["default"] = (profileReducer);
+
+/***/ }),
+
+/***/ "./src/components/redux/redux-store.js":
+/*!*********************************************!*\
+  !*** ./src/components/redux/redux-store.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/redux.js");
+/* harmony import */ var _dialogs_reducer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./dialogs-reducer */ "./src/components/redux/dialogs-reducer.js");
+/* harmony import */ var _profile_reducer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./profile-reducer */ "./src/components/redux/profile-reducer.js");
+/* harmony import */ var _users_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./users-reducer */ "./src/components/redux/users-reducer.js");
+/* harmony import */ var _auth_reducer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./auth-reducer */ "./src/components/redux/auth-reducer.js");
+
+
+
+
+
+let reducers = Object(redux__WEBPACK_IMPORTED_MODULE_0__["combineReducers"])({
+  profilePage: _profile_reducer__WEBPACK_IMPORTED_MODULE_2__["default"],
+  dialogsPage: _dialogs_reducer__WEBPACK_IMPORTED_MODULE_1__["default"],
+  usersPage: _users_reducer__WEBPACK_IMPORTED_MODULE_3__["default"],
+  auth: _auth_reducer__WEBPACK_IMPORTED_MODULE_4__["default"]
+});
+let store = Object(redux__WEBPACK_IMPORTED_MODULE_0__["createStore"])(reducers);
+window.store = store;
+/* harmony default export */ __webpack_exports__["default"] = (store);
+
+/***/ }),
+
+/***/ "./src/components/redux/store.js":
+/*!***************************************!*\
+  !*** ./src/components/redux/store.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _profile_reducer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./profile-reducer */ "./src/components/redux/profile-reducer.js");
+/* harmony import */ var _dialogs_reducer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./dialogs-reducer */ "./src/components/redux/dialogs-reducer.js");
+
+
+let store = {
+  _state: {
+    dialogsPage: {
+      dialogsData: [{
+        id: 1,
+        name: "Tania",
+        image: "https://telegraf.com.ua/files/2019/06/portrait-2865605_960_720.jpg"
+      }, {
+        id: 2,
+        name: "Sasha",
+        image: "https://media.istockphoto.com/photos/reflections-in-lake-matheson-picture-id535204076?k=6&m=535204076&s=612x612&w=0&h=isL2lHZq41HcdyWGFBE3X800JTOxOCqahQBj5K_Kv7Y="
+      }, {
+        id: 3,
+        name: "Inna",
+        image: "https://jooinn.com/images/girl-162.jpg"
+      }],
+      messagesData: [{
+        id: 1,
+        message: "Hey you"
+      }, {
+        id: 2,
+        message: "How are you?"
+      }, {
+        id: 3,
+        message: "What do you do?"
+      }],
+      newMessageText: ""
+    },
+    profilePage: {
+      postData: [{
+        id: 1,
+        message: "Hi everyone. I`m happy to be there",
+        likecount: 12,
+        image: "https://images.pexels.com/photos/371589/pexels-photo-371589.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      }, {
+        id: 2,
+        message: "I`m new one",
+        likecount: 16,
+        image: "https://images.hdrsoft.com/images/lighthouse/thumbs/hdr-vibrant.jpg"
+      }],
+      newPostText: ""
+    },
+    usersPage: {
+      users: [{
+        id: 1,
+        followed: true,
+        fullName: "Tatiana Beznosiuk",
+        status: "Junior developer",
+        location: {
+          city: "Kiyv",
+          country: "Ukraine"
+        },
+        image: "https://cdn.psychologytoday.com/sites/default/files/styles/article-inline-half-caption/public/field_blog_entry_images/2018-09/shutterstock_648907024.jpg?itok=0hb44OrI"
+      }, {
+        id: 2,
+        followed: false,
+        fullName: "Olexandr Nashenko",
+        status: "Head of department",
+        location: {
+          city: "Prague",
+          country: "Czech Republic"
+        },
+        image: "https://admin.bel-solar.by/wp-content/uploads/2018/10/ph1.jpeg"
+      }, {
+        id: 3,
+        followed: true,
+        fullName: "Maria Renkovich",
+        status: "HR",
+        location: {
+          city: "Warshawa",
+          country: "Poland"
+        },
+        image: "https://image.shutterstock.com/image-photo/positive-human-facial-expressions-emotions-260nw-640005181.jpg"
+      }],
+      newUser: ""
+    }
+  },
+
+  _callSubscriber() {
+    console.log("state is changed");
+  },
+
+  getState() {
+    return this._state;
+  },
+
+  subscribe(observer) {
+    this._callSubscriber = observer;
+  },
+
+  dispatch(action) {
+    this._state.profilePage = Object(_profile_reducer__WEBPACK_IMPORTED_MODULE_0__["default"])(this._state.profilePage, action);
+    this._state.dialogsPage = Object(_dialogs_reducer__WEBPACK_IMPORTED_MODULE_1__["default"])(this._state.dialogsPage, action);
+
+    this._callSubscriber(this._state);
+  }
+
+};
+/* harmony default export */ __webpack_exports__["default"] = (store);
+window.store = store;
+
+/***/ }),
+
+/***/ "./src/components/redux/users-reducer.js":
+/*!***********************************************!*\
+  !*** ./src/components/redux/users-reducer.js ***!
+  \***********************************************/
+/*! exports provided: follow, unfollow, setUser, setCurrentPage, setUsersTotalCount, toggleIsFetching, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "follow", function() { return follow; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unfollow", function() { return unfollow; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setUser", function() { return setUser; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setCurrentPage", function() { return setCurrentPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setUsersTotalCount", function() { return setUsersTotalCount; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "toggleIsFetching", function() { return toggleIsFetching; });
+/* harmony import */ var C_Users_Desktop_programing_Social_Skrini_social_network_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { Object(C_Users_Desktop_programing_Social_Skrini_social_network_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+const FOLLOW = "FOLLOW";
+const UNFOLLOW = "UNFOLLOW";
+const SET_USERS = "SET_USERS";
+const SET_CURRENT_PAGE = "SET_CURRENT_PAGE";
+const SET_TOTAL_USERS_COUNT = "SET_TOTAL_USERS_COUNT";
+const TOGGLE_IS_FETCHING = "TOGGLE_IS_FETCHING";
+let initialState = {
+  users: [],
+  pageSize: 7,
+  totalUsersCount: 0,
+  currentPage: 1,
+  isFetching: false
+};
+
+const usersReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case FOLLOW:
+      return _objectSpread({}, state, {
+        users: state.users.map(u => {
+          if (u.id === action.userId) {
+            return _objectSpread({}, u, {
+              followed: true
+            });
+          }
+
+          return u;
+        })
+      });
+
+    case UNFOLLOW:
+      return _objectSpread({}, state, {
+        users: state.users.map(u => {
+          if (u.id === action.userId) {
+            return _objectSpread({}, u, {
+              followed: false
+            });
+          }
+
+          return u;
+        })
+      });
+
+    case SET_USERS:
+      return _objectSpread({}, state, {
+        users: action.users
+      });
+
+    case SET_CURRENT_PAGE:
+      {
+        return _objectSpread({}, state, {
+          currentPage: action.currentPage
+        });
+      }
+
+    case SET_TOTAL_USERS_COUNT:
+      {
+        return _objectSpread({}, state, {
+          totalUsersCount: action.count
+        });
+      }
+
+    case TOGGLE_IS_FETCHING:
+      {
+        return _objectSpread({}, state, {
+          isFetching: action.isFetching
+        });
+      }
+
+    default:
+      return state;
+  }
+};
+
+const follow = userId => ({
+  type: FOLLOW,
+  userId
+});
+const unfollow = userId => ({
+  type: UNFOLLOW,
+  userId
+});
+const setUser = users => ({
+  type: SET_USERS,
+  users
+});
+const setCurrentPage = currentPage => ({
+  type: SET_CURRENT_PAGE,
+  currentPage
+});
+const setUsersTotalCount = totalUsersCount => ({
+  type: SET_TOTAL_USERS_COUNT,
+  count: totalUsersCount
+});
+const toggleIsFetching = isFetching => ({
+  type: TOGGLE_IS_FETCHING,
+  isFetching
+});
+/* harmony default export */ __webpack_exports__["default"] = (usersReducer);
+
+/***/ }),
+
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _serviceWorker__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./serviceWorker */ "./src/serviceWorker.js");
+/* harmony import */ var _components_redux_redux_store__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/redux/redux-store */ "./src/components/redux/redux-store.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\index.js";
+
+
+
+
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_4___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["BrowserRouter"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_redux__WEBPACK_IMPORTED_MODULE_7__["Provider"], {
+  store: _components_redux_redux_store__WEBPACK_IMPORTED_MODULE_3__["default"],
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_App__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}))), document.getElementById("root")); // ReactDOM.render(<newClass />, document.getElementById("root"));
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+
+_serviceWorker__WEBPACK_IMPORTED_MODULE_2__["unregister"]();
+
+/***/ }),
+
+/***/ "./src/serviceWorker.js":
+/*!******************************!*\
+  !*** ./src/serviceWorker.js ***!
+  \******************************/
+/*! exports provided: register, unregister */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "register", function() { return register; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unregister", function() { return unregister; });
+// This optional code is used to register a service worker.
+// register() is not called by default.
+// This lets the app load faster on subsequent visits in production, and gives
+// it offline capabilities. However, it also means that developers (and users)
+// will only see deployed updates on subsequent visits to a page, after all the
+// existing tabs open on the page have been closed, since previously cached
+// resources are updated in the background.
+// To learn more about the benefits of this model and instructions on how to
+// opt-in, read https://bit.ly/CRA-PWA
+const isLocalhost = Boolean(window.location.hostname === 'localhost' || // [::1] is the IPv6 localhost address.
+window.location.hostname === '[::1]' || // 127.0.0.1/8 is considered localhost for IPv4.
+window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));
+function register(config) {
+  if (false) {}
+}
+
+function registerValidSW(swUrl, config) {
+  navigator.serviceWorker.register(swUrl).then(registration => {
+    registration.onupdatefound = () => {
+      const installingWorker = registration.installing;
+
+      if (installingWorker == null) {
+        return;
+      }
+
+      installingWorker.onstatechange = () => {
+        if (installingWorker.state === 'installed') {
+          if (navigator.serviceWorker.controller) {
+            // At this point, the updated precached content has been fetched,
+            // but the previous service worker will still serve the older
+            // content until all client tabs are closed.
+            console.log('New content is available and will be used when all ' + 'tabs for this page are closed. See https://bit.ly/CRA-PWA.'); // Execute callback
+
+            if (config && config.onUpdate) {
+              config.onUpdate(registration);
+            }
+          } else {
+            // At this point, everything has been precached.
+            // It's the perfect time to display a
+            // "Content is cached for offline use." message.
+            console.log('Content is cached for offline use.'); // Execute callback
+
+            if (config && config.onSuccess) {
+              config.onSuccess(registration);
+            }
+          }
+        }
+      };
+    };
+  }).catch(error => {
+    console.error('Error during service worker registration:', error);
+  });
+}
+
+function checkValidServiceWorker(swUrl, config) {
+  // Check if the service worker can be found. If it can't reload the page.
+  fetch(swUrl).then(response => {
+    // Ensure service worker exists, and that we really are getting a JS file.
+    const contentType = response.headers.get('content-type');
+
+    if (response.status === 404 || contentType != null && contentType.indexOf('javascript') === -1) {
+      // No service worker found. Probably a different app. Reload the page.
+      navigator.serviceWorker.ready.then(registration => {
+        registration.unregister().then(() => {
+          window.location.reload();
+        });
+      });
+    } else {
+      // Service worker found. Proceed as normal.
+      registerValidSW(swUrl, config);
+    }
+  }).catch(() => {
+    console.log('No internet connection found. App is running in offline mode.');
+  });
+}
+
+function unregister() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.ready.then(registration => {
+      registration.unregister();
+    });
+  }
+}
+
+/***/ }),
+
+/***/ 0:
+/*!**********************************************************************************!*\
+  !*** multi ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\Татьяна\Desktop\programing\Social\Skrini_social_network\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Users\Татьяна\Desktop\programing\Social\Skrini_social_network\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[0,"runtime-main",0]]]);
+//# sourceMappingURL=main.chunk.js.map
