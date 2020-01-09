@@ -24,5 +24,9 @@ export const usersAPI = {
 
   setUserProfileAPI(userId) {
     return instance.get(`profile/${userId}`).then(response => response.data);
+  },
+
+  logIn() {
+    return instance.get(`auth/me`);
   }
 };
