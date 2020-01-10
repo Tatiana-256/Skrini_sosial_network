@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./ProfileInfo.module.css";
 import Preloader from "../../common/Preloader/Preloader";
+import ProfileStatus from "./ProfileStatus/ProfileStatus";
 
 const ProfileInfo = props => {
   if (!props.profile) {
@@ -13,6 +14,7 @@ const ProfileInfo = props => {
           className={classes.fone_picture_color}
           src={props.profile.photos.large}
         />
+        <ProfileStatus status={"Hey world!"} />
       </div>
     </div>
   );
