@@ -14,7 +14,10 @@ const ProfileInfo = props => {
           className={classes.fone_picture_color}
           src={props.profile.photos.large}
         />
-        <ProfileStatus status={"Hey world!"} />
+        <ProfileStatus
+          status={props.status}
+          updateStatus={props.updateStatus}
+        />
       </div>
     </div>
   );
