@@ -1,7 +1,6 @@
 import store from "./store";
 
-const ADD_MESSAGE = "ADD-MESSAGE";
-const UPDATE_NEW_MESSAGE_TEXT = "UPDATE-NEW-MESSAGE-TEXT";
+const ADD_MESSAGE = "ADD_MESSAGE";
 
 let initialState = {
   dialogsData: [
@@ -42,9 +41,6 @@ const dialogsReducer = (state = initialState, action) => {
         messagesData: [...state.messagesData, newMessage]
       };
     }
-    case UPDATE_NEW_MESSAGE_TEXT: {
-      return { ...state, newMessageText: action.newTextMessage };
-    }
     default:
       return state;
   }
@@ -53,10 +49,6 @@ const dialogsReducer = (state = initialState, action) => {
 export const addMessageActionCreator = addNewMessage => ({
   type: ADD_MESSAGE,
   addNewMessage
-});
-export const updateNewMessageChangeActionCreator = text => ({
-  type: UPDATE_NEW_MESSAGE_TEXT,
-  newTextMessage: text
 });
 
 export default dialogsReducer;

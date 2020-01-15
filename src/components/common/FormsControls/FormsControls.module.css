@@ -1,0 +1,8 @@
+.error textarea {
+  border: solid rgb(189, 31, 31) 2px;
+}
+
+.error span {
+  font-size: 15px;
+  color: rgb(189, 31, 31);
+}
