@@ -25,3 +25,9 @@ div.form h1 {
   margin-left: 4%;
   letter-spacing: 1px;
 }
+
+.error {
+  border: red 1px solid;
+  padding: 5px;
+  color: red;
+}

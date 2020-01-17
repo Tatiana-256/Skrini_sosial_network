@@ -26,8 +26,14 @@ export const usersAPI = {
     return profileAPI.setUserProfileAPI(userId);
   },
 
-  logIn() {
+  me() {
     return instance.get(`auth/me`);
+  },
+  logIn(email, password, rememberMe = false) {
+    return instance.post(`auth/login`, { email, password, rememberMe });
+  },
+  logOut() {
+    return instance.delete(`auth/login`);
   }
 };
 
