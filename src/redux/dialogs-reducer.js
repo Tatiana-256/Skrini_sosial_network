@@ -1,6 +1,6 @@
 import store from "./store";
 
-const ADD_MESSAGE = "ADD_MESSAGE";
+const ADD_MESSAGE = "dialogs/ADD_MESSAGE";
 
 let initialState = {
   dialogsData: [

@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Login.module.css";
-import { Field, reduxForm } from "redux-form";
-import { Input } from "../common/FormsControls/FormsControls";
+import { reduxForm } from "redux-form";
+import { Input, createField } from "../common/FormsControls/FormsControls";
 import { required } from "../utils/validators/validators";
 import { connect } from "react-redux";
 import { login } from "../../redux/auth-reducer";
@@ -23,39 +23,24 @@ const Login = props => {
   );
 };
 
-const LoginForm = props => {
+const LoginForm = ({ handleSubmit, error }) => {
   return (
     <div className={classes.form}>
-      <form onSubmit={props.handleSubmit}>
-        <div>
-          <Field
-            placeholder={"Email"}
-            className={classes.input}
-            component={Input}
-            name={"email"}
-            validate={[required]}
-          />
-        </div>
-        <div>
-          <Field
-            placeholder={"Password"}
-            className={classes.input}
-            component={Input}
-            name={"password"}
-            validate={[required]}
-            type={"password"}
-          />
-        </div>
-        <div>
-          <Field
-            type={"checkbox"}
-            component={Input}
-            name={"rememberMe"}
-            validate={[required]}
-          />{" "}
-          remember me
-        </div>
-        {props.error && <div className={classes.error}>{props.error}</div>}
+      <form onSubmit={handleSubmit}>
+        {createField("Email", "email", Input, classes.input, [required])}
+        {createField("Password", "password", Input, classes.input, [required], {
+          type: "password"
+        })}
+        {createField(
+          null,
+          "rememberMe",
+          Input,
+          null,
+          null,
+          { type: "checkbox" },
+          "remember me"
+        )}
+        {error && <div className={classes.error}>{error}</div>}
         <div>
           <button className={classes.but}>Login</button>
         </div>
