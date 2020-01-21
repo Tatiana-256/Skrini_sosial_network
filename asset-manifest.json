@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Skrini_sosial_network/static/css/main.34e005d9.chunk.css",
+    "main.js": "/Skrini_sosial_network/static/js/main.6b68d386.chunk.js",
+    "main.js.map": "/Skrini_sosial_network/static/js/main.6b68d386.chunk.js.map",
+    "runtime-main.js": "/Skrini_sosial_network/static/js/runtime-main.e70bc669.js",
+    "runtime-main.js.map": "/Skrini_sosial_network/static/js/runtime-main.e70bc669.js.map",
+    "static/js/2.e13bb2b6.chunk.js": "/Skrini_sosial_network/static/js/2.e13bb2b6.chunk.js",
+    "static/js/2.e13bb2b6.chunk.js.map": "/Skrini_sosial_network/static/js/2.e13bb2b6.chunk.js.map",
+    "static/css/3.ebb08a3b.chunk.css": "/Skrini_sosial_network/static/css/3.ebb08a3b.chunk.css",
+    "static/js/3.aee62dec.chunk.js": "/Skrini_sosial_network/static/js/3.aee62dec.chunk.js",
+    "static/js/3.aee62dec.chunk.js.map": "/Skrini_sosial_network/static/js/3.aee62dec.chunk.js.map",
+    "static/css/4.c204166f.chunk.css": "/Skrini_sosial_network/static/css/4.c204166f.chunk.css",
+    "static/js/4.1315fbbc.chunk.js": "/Skrini_sosial_network/static/js/4.1315fbbc.chunk.js",
+    "static/js/4.1315fbbc.chunk.js.map": "/Skrini_sosial_network/static/js/4.1315fbbc.chunk.js.map",
+    "index.html": "/Skrini_sosial_network/index.html",
+    "precache-manifest.ca5ea09e40e93edbf3a486a102e08948.js": "/Skrini_sosial_network/precache-manifest.ca5ea09e40e93edbf3a486a102e08948.js",
+    "service-worker.js": "/Skrini_sosial_network/service-worker.js",
+    "static/css/3.ebb08a3b.chunk.css.map": "/Skrini_sosial_network/static/css/3.ebb08a3b.chunk.css.map",
+    "static/css/4.c204166f.chunk.css.map": "/Skrini_sosial_network/static/css/4.c204166f.chunk.css.map",
+    "static/css/main.34e005d9.chunk.css.map": "/Skrini_sosial_network/static/css/main.34e005d9.chunk.css.map",
+    "static/js/2.e13bb2b6.chunk.js.LICENSE": "/Skrini_sosial_network/static/js/2.e13bb2b6.chunk.js.LICENSE",
+    "static/media/images.png": "/Skrini_sosial_network/static/media/images.a1d40c38.png",
+    "static/media/loading.svg": "/Skrini_sosial_network/static/media/loading.3eb3f5ee.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e70bc669.js",
+    "static/js/2.e13bb2b6.chunk.js",
+    "static/css/main.34e005d9.chunk.css",
+    "static/js/main.6b68d386.chunk.js"
+  ]
+}
