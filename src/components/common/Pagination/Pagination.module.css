@@ -6,3 +6,8 @@
 span {
   padding: 2px;
 }
+
+.btn {
+  width: 150px;
+  font-size: 10px;
+}
