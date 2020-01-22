@@ -1,7 +1,7 @@
 import React, { Component, Suspense, lazy } from "react";
 import "./App.css";
 import Nav from "./components/Nav/Nav";
-import { Route, withRouter } from "react-router-dom";
+import { Route, withRouter, HashRouter } from "react-router-dom";
 import News from "./components/News/News";
 import Music from "./components/Music/Music";
 import Settings from "./components/Settings/Settings";
@@ -79,11 +79,11 @@ let AppContainer = compose(
 
 const GlobalApp = props => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Provider store={store}>
         <AppContainer />
       </Provider>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

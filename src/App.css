@@ -14,7 +14,6 @@
       rgba(167, 102, 167, 0.678)
     ),
     url(https://fondos.io/wp-content/uploads/2019/01/horizontal-wallpapers-hd_5099.png);
-  text-transform: uppercase;
 }
 .app-wraper-content {
   grid-area: c;
