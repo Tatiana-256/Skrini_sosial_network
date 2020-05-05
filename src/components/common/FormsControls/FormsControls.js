@@ -19,7 +19,7 @@ export const Textarea = props => {
   return (
     <FormControl {...props}>
       {" "}
-      <textarea {...input} {...restProps} />
+      <textarea className={classes.text} {...input} {...restProps} />
     </FormControl>
   );
 };
@@ -53,7 +53,6 @@ export const createField = (
         validate={validate}
         {...props}
       />
-      {/* {" "} */}
       {text}
     </div>
   );

@@ -4,7 +4,30 @@
 }
 
 .fone_picture_color {
-  width: 10%;
+  width: 200px;
   height: auto;
-  border-radius: 50px;
+  border-radius: 50%;
+}
+
+.info{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  align-items: center;
+  justify-content: space-evenly ;
+
+}
+.edit{
+  display: flex;
+  border: none;
+  outline: none;
+
+}
+
+.btn{
+  width: 100px;
+  border: none;
+  outline: none;
+
 }

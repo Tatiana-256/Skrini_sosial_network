@@ -1,11 +1,15 @@
+* {
+  text-decoration: none;
+}
+
 .header {
   grid-area: h;
+
   background-color: rgb(233, 235, 126);
   background-image: linear-gradient(
-    rgba(321, 160, 221, 0.829),
-    rgba(237, 233, 243, 0.356)
+          rgb(152, 235, 230),
+          #ebfffa
   );
-  margin-left: 10px;
 }
 
 .header img {
@@ -15,26 +19,28 @@
 }
 
 header div {
-  position: relative;
-  text-transform: uppercase;
-  word-spacing: 3px;
-  letter-spacing: 4px;
-  float: right;
-  margin-top: 10px;
-  margin-right: 50px;
-  /* font-family: SourceSansPro-Bold; */
+display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*float: right;*/
   font-family: Comic Sans MS;
   font-size: 30px;
   color: #4b2354;
-  line-height: 1.2;
+}
+
+.btn{
+  width: 100px;
+  border: none;
 }
 
 .social_log_in {
-  /* font-family: SourceSansPro-Bold; */
-  text-decoration: none;
-  font-size: 30px;
-  color: #ddf8ab;
-  line-height: 1.2;
-  text-shadow: rgb(37, 37, 37) 0 0 4px;
   margin-right: 20px;
+}
+
+.social_name{
+  font-size: 60px;
+  margin-left: 40px;
+  border: 2px solid dodgerblue;
+  z-index: 1;
+  border-radius: 50%;
 }

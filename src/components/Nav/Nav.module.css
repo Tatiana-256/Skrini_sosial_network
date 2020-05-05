@@ -12,12 +12,9 @@
 }
 .nav {
   grid-area: n;
-  background-color: rgb(233, 235, 126);
-  background-image: linear-gradient(
-    rgba(237, 233, 243, 0.356),
-    rgba(321, 127, 221, 0.829)
-  );
-  margin: 10px 10px;
+  background-color:  #ebfffa;
+  height: 370px;
+  margin: 0px 10px;
   padding: 20px 10px;
   text-transform: uppercase;
 }

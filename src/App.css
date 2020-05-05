@@ -1,22 +1,12 @@
 .App-wrapper {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+  min-height: 100vh;
   display: grid;
   grid-area: h;
   grid-gap: 20px;
   grid-template-columns: 1fr 5fr;
   grid-template-rows: 80px 1fr;
   grid-template-areas: "h h" "n c";
-  background-image: url(https://fondos.io/wp-content/uploads/2019/01/horizontal-wallpapers-hd_5099.png);
-  background-image: linear-gradient(
-      rgba(237, 233, 243, 0.959),
-      rgba(167, 102, 167, 0.678)
-    ),
-    url(https://fondos.io/wp-content/uploads/2019/01/horizontal-wallpapers-hd_5099.png);
+  background-color: #ebfffa;
 }
 .app-wraper-content {
-  grid-area: c;
-  padding: 7px;
-  display: block;
 }

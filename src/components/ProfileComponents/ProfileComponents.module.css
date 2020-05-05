@@ -1,6 +1,6 @@
-/* .content {
-  grid-area: c;
-} */
+.profile{
+  display: flex;
+}
 
 .fone_picture {
   width: 100%;

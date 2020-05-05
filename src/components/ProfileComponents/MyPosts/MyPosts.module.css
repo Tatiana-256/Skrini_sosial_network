@@ -6,6 +6,9 @@ button {
   width: 200px;
   height: 35px;
   border-radius: 25px;
+  border: none;
+  outline: none;
+
 }
 
 .posts {
@@ -16,4 +19,6 @@ textarea {
   width: 30%;
   height: 100px;
   resize: none;
+  border: 1px solid #858585;
+  outline: none;
 }
