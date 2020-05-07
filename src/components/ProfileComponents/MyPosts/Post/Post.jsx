@@ -1,24 +1,33 @@
 import React from "react";
 import classes from "./Post.module.css";
-import { inherits } from "util";
+import {inherits} from "util";
 
 const Post = props => {
-  return (
-    <div>
-      <div className={classes.items}>
-        <img src={props.image}></img>
-        {props.m}
-      </div>
-      <div>
-        <span>likes </span>
-        {props.likecount}
-      </div>
-    </div>
-  );
+    console.log(props.like)
+    return (
+
+        <div>
+            <div className={classes.items}>
+                <img src={props.image}></img>
+                {props.m}
+            </div>
+            <div>
+                {props.like ?
+                    <button className={classes.btnno}
+                            onClick={() => {
+                                props.deleteLike(props.postId)
+                            }}>
+                        like</button> :
+                    <button className={classes.btn}
+                            onClick={() => {
+                                props.setLike(props.postId)
+                            }}>
+                        like</button>}
+
+                {props.likecount}
+            </div>
+        </div>
+    );
 };
 
 export default Post;
-
-// lass Post extends React.Component {
-//   render(props) {
-//     return (

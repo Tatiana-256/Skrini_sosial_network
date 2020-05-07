@@ -1,9 +1,22 @@
 .items {
-  color: #ffffff;
+  color: black;
 }
 
 .items img {
   width: 150px;
   height: auto;
   border-radius: 50%;
+  border: 1px solid black;
+
+}
+
+.btn{
+  background-color: #10d1ed;
+  width: 80px;
+}
+
+.btnno{
+  background-color: #d2d2d2;
+  width: 80px;
+  border: 1px solid black;
 }

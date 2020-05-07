@@ -1,9 +1,10 @@
 import React from "react";
 import loadingPage from "../../../assets/loading.svg";
+import classes from './loader.module.css'
 
 let Preloader = props => {
   return (
-    <div>
+    <div className={classes.loader}>
       <img src={loadingPage} />
     </div>
   );
