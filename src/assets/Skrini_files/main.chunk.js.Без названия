@@ -656,7 +656,7 @@ if (true) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _redux_dialogs_reducer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../redux/dialogs-reducer */ "./src/components/redux/dialogs-reducer.js");
+/* harmony import */ var _redux_dialogs_reducer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../redux/dialogs-reducer */ "./src/components/redux/dialogs-reducer.ts");
 /* harmony import */ var _Dialogs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Dialogs */ "./src/components/Dialogs/Dialogs.jsx");
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 
@@ -842,7 +842,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var _redux_auth_reducer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../redux/auth-reducer */ "./src/components/redux/auth-reducer.js");
+/* harmony import */ var _redux_auth_reducer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../redux/auth-reducer */ "./src/components/redux/auth-reducer.ts");
 var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Header\\HeaderContainer.jsx";
 
 
@@ -1232,7 +1232,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _MyPosts_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MyPosts.module.css */ "./src/components/ProfileComponents/MyPosts/MyPosts.module.css");
 /* harmony import */ var _MyPosts_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_MyPosts_module_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Post_Post__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Post/Post */ "./src/components/ProfileComponents/MyPosts/Post/Post.jsx");
-/* harmony import */ var _redux_profile_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../redux/profile-reducer */ "./src/components/redux/profile-reducer.js");
+/* harmony import */ var _redux_profile_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../redux/profile-reducer */ "./src/components/redux/profile-reducer.ts");
 var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\ProfileComponents\\MyPosts\\MyPosts.jsx";
 
 
@@ -1373,7 +1373,7 @@ if (true) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _redux_profile_reducer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../redux/profile-reducer */ "./src/components/redux/profile-reducer.js");
+/* harmony import */ var _redux_profile_reducer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../redux/profile-reducer */ "./src/components/redux/profile-reducer.ts");
 /* harmony import */ var _MyPosts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MyPosts */ "./src/components/ProfileComponents/MyPosts/MyPosts.jsx");
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 
@@ -1572,7 +1572,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _ProfileComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProfileComponent */ "./src/components/ProfileComponents/ProfileComponent.jsx");
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var _redux_profile_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../redux/profile-reducer */ "./src/components/redux/profile-reducer.js");
+/* harmony import */ var _redux_profile_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../redux/profile-reducer */ "./src/components/redux/profile-reducer.ts");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
@@ -2060,7 +2060,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var _redux_users_reducer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../redux/users-reducer */ "./src/components/redux/users-reducer.js");
+/* harmony import */ var _redux_users_reducer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../redux/users-reducer */ "./src/components/redux/users-reducer.ts");
 /* harmony import */ var _Users__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Users */ "./src/components/Users/Users.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_4__);
@@ -2185,9 +2185,9 @@ let Preloader = props => {
 
 /***/ }),
 
-/***/ "./src/components/redux/auth-reducer.js":
+/***/ "./src/components/redux/auth-reducer.ts":
 /*!**********************************************!*\
-  !*** ./src/components/redux/auth-reducer.js ***!
+  !*** ./src/components/redux/auth-reducer.ts ***!
   \**********************************************/
 /*! exports provided: setAuthUserData, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -2236,9 +2236,9 @@ const setAuthUserData = (userId, email, login) => ({
 
 /***/ }),
 
-/***/ "./src/components/redux/dialogs-reducer.js":
+/***/ "./src/components/redux/dialogs-reducer.ts":
 /*!*************************************************!*\
-  !*** ./src/components/redux/dialogs-reducer.js ***!
+  !*** ./src/components/redux/dialogs-reducer.ts ***!
   \*************************************************/
 /*! exports provided: addMessageActionCreator, updateNewMessageChangeActionCreator, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -2322,9 +2322,9 @@ const updateNewMessageChangeActionCreator = text => ({
 
 /***/ }),
 
-/***/ "./src/components/redux/profile-reducer.js":
+/***/ "./src/components/redux/profile-reducer.ts":
 /*!*************************************************!*\
-  !*** ./src/components/redux/profile-reducer.js ***!
+  !*** ./src/components/redux/profile-reducer.ts ***!
   \*************************************************/
 /*! exports provided: addPostActionCreator, updateNewPostTextActionCreator, setUserProfile, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -2419,10 +2419,10 @@ const setUserProfile = profile => ({
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/redux.js");
-/* harmony import */ var _dialogs_reducer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./dialogs-reducer */ "./src/components/redux/dialogs-reducer.js");
-/* harmony import */ var _profile_reducer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./profile-reducer */ "./src/components/redux/profile-reducer.js");
-/* harmony import */ var _users_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./users-reducer */ "./src/components/redux/users-reducer.js");
-/* harmony import */ var _auth_reducer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./auth-reducer */ "./src/components/redux/auth-reducer.js");
+/* harmony import */ var _dialogs_reducer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./dialogs-reducer */ "./src/components/redux/dialogs-reducer.ts");
+/* harmony import */ var _profile_reducer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./profile-reducer */ "./src/components/redux/profile-reducer.ts");
+/* harmony import */ var _users_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./users-reducer */ "./src/components/redux/users-reducer.ts");
+/* harmony import */ var _auth_reducer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./auth-reducer */ "./src/components/redux/auth-reducer.ts");
 
 
 
@@ -2449,8 +2449,8 @@ window.store = store;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _profile_reducer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./profile-reducer */ "./src/components/redux/profile-reducer.js");
-/* harmony import */ var _dialogs_reducer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./dialogs-reducer */ "./src/components/redux/dialogs-reducer.js");
+/* harmony import */ var _profile_reducer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./profile-reducer */ "./src/components/redux/profile-reducer.ts");
+/* harmony import */ var _dialogs_reducer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./dialogs-reducer */ "./src/components/redux/dialogs-reducer.ts");
 
 
 let store = {
@@ -2556,9 +2556,9 @@ window.store = store;
 
 /***/ }),
 
-/***/ "./src/components/redux/users-reducer.js":
+/***/ "./src/components/redux/users-reducer.ts":
 /*!***********************************************!*\
-  !*** ./src/components/redux/users-reducer.js ***!
+  !*** ./src/components/redux/users-reducer.ts ***!
   \***********************************************/
 /*! exports provided: follow, unfollow, setUser, setCurrentPage, setUsersTotalCount, toggleIsFetching, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
