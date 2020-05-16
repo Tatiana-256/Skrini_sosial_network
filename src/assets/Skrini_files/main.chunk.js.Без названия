@@ -287,7 +287,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Settings_Settings__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/Settings/Settings */ "./src/components/Settings/Settings.jsx");
 /* harmony import */ var _index__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./index */ "./src/index.js");
 /* harmony import */ var _components_Dialogs_DialogsContainer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/Dialogs/DialogsContainer */ "./src/components/Dialogs/DialogsContainer.jsx");
-/* harmony import */ var _components_Users_UsersContainer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/Users/UsersContainer */ "./src/components/Users/UsersContainer.jsx");
+/* harmony import */ var _components_Users_UsersContainer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/Users/UsersContainer */ "./src/components/Users/UsersContainer.tsx");
 /* harmony import */ var _components_ProfileComponents_ProfileContainer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/ProfileComponents/ProfileContainer */ "./src/components/ProfileComponents/ProfileContainer.jsx");
 /* harmony import */ var _components_Header_HeaderContainer__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/Header/HeaderContainer */ "./src/components/Header/HeaderContainer.jsx");
 var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\App.js";
@@ -1811,9 +1811,9 @@ if (true) {
 
 /***/ }),
 
-/***/ "./src/components/Users/Users.js":
+/***/ "./src/components/Users/Users.ts":
 /*!***************************************!*\
-  !*** ./src/components/Users/Users.js ***!
+  !*** ./src/components/Users/Users.ts ***!
   \***************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1829,7 +1829,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Users\\Users.js";
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Users\\Users.ts";
 
 
 
@@ -2048,9 +2048,9 @@ if (true) {
 
 /***/ }),
 
-/***/ "./src/components/Users/UsersContainer.jsx":
+/***/ "./src/components/Users/UsersContainer.tsx":
 /*!*************************************************!*\
-  !*** ./src/components/Users/UsersContainer.jsx ***!
+  !*** ./src/components/Users/UsersContainer.tsx ***!
   \*************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -2061,11 +2061,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 /* harmony import */ var _redux_users_reducer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../redux/users-reducer */ "./src/components/redux/users-reducer.ts");
-/* harmony import */ var _Users__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Users */ "./src/components/Users/Users.js");
+/* harmony import */ var _Users__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Users */ "./src/components/Users/Users.ts");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _common_Preloader_Preloader__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../common/Preloader/Preloader */ "./src/components/common/Preloader/Preloader.js");
-var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Users\\UsersContainer.jsx";
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Users\\UsersContainer.tsx";
 
 
 
@@ -2409,9 +2409,9 @@ const setUserProfile = profile => ({
 
 /***/ }),
 
-/***/ "./src/components/redux/redux-store.js":
+/***/ "./src/components/redux/redux-store.ts":
 /*!*********************************************!*\
-  !*** ./src/components/redux/redux-store.js ***!
+  !*** ./src/components/redux/redux-store.ts ***!
   \*********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -2740,7 +2740,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
 /* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _serviceWorker__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./serviceWorker */ "./src/serviceWorker.js");
-/* harmony import */ var _components_redux_redux_store__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/redux/redux-store */ "./src/components/redux/redux-store.js");
+/* harmony import */ var _components_redux_redux_store__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/redux/redux-store */ "./src/components/redux/redux-store.ts");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./App */ "./src/App.js");

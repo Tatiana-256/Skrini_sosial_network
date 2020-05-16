@@ -3,8 +3,7 @@ import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import ReactDOM from "react-dom";
 import GlobalApp from "./App";
-import { BrowserRouter } from "react-router-dom";
-import { Provider } from "react-redux";
+
 
 ReactDOM.render(<GlobalApp />, document.getElementById("root"));
 
