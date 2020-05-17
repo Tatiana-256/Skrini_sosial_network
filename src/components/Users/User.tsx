@@ -5,7 +5,10 @@ import {NavLink} from "react-router-dom";
 import {userType} from "../../types/types";
 
 type PropsType = {
-    user: userType, followingInProgress: Array<number>, unfollow: (userId: string) => void, follow: (userId: string) => void
+    user: userType,
+    followingInProgress: Array<string>,
+    unfollow: (userId: string) => void,
+    follow: (userId: string) => void
 }
 
 let User: React.FC<PropsType> = ({user, followingInProgress, unfollow, follow, ...props}) => {
@@ -23,7 +26,7 @@ let User: React.FC<PropsType> = ({user, followingInProgress, unfollow, follow, .
         <div>
           {user.followed ? (
               <button
-                  disabled={followingInProgress.some((id):boolean => id === user.id)}
+                  disabled={followingInProgress.some((id): boolean => id === user.id)}
                   className={classes.but}
                   onClick={() => {
                       unfollow(user.id);
@@ -33,7 +36,7 @@ let User: React.FC<PropsType> = ({user, followingInProgress, unfollow, follow, .
               </button>
           ) : (
               <button
-                  disabled={followingInProgress.some((id):boolean => id === user.id)}
+                  disabled={followingInProgress.some((id): boolean => id === user.id)}
                   className={classes.but}
                   onClick={() => {
                       follow(user.id);

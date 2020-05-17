@@ -1,11 +1,10 @@
 import {usersAPI} from "../api/api";
-import {strict} from "assert";
 import {stopSubmit} from "redux-form";
 
 const SET_USER_DATA = "auth/SET_USER_DATA";
 
 export type initialStateType2 = {
-    userId: number | null,
+    userId: string | null,
     email: string | null,
     login: string | null,
     isAuth: boolean
@@ -17,14 +16,14 @@ type setAuthUserDataType = {
 }
 
 type setAuthUserDataTypePayloadType = {
-    userId: number | null,
+    userId: string | null,
     email: string | null,
     login: string | null,
     isAuth: boolean
 }
 
 let initialState = {
-    userId: null as number | null,
+    userId: null as string | null,
     email: null as string | null,
     login: null as string | null,
     isAuth: false
@@ -44,7 +43,7 @@ const authReducer = (state = initialState, action: any): initialStateType => {
 
 
 
-export const setAuthUserData = (userId: number | null, email: string | null,
+export const setAuthUserData = (userId: string | null, email: string | null,
                                 login: string | null, isAuth: boolean): setAuthUserDataType => ({
     type: SET_USER_DATA,
     payload: {userId, email, login, isAuth}

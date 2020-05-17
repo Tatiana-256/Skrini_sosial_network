@@ -40,9 +40,9 @@ let Pagination: React.FC<PropsType> = ({
             {pages
                 .filter(p => p >= leftBlockPageNumber && p <= rightBlockPageNumber)
                 .map(p => {
-                  return (
+                    return (
                         <span
-                            className={currentPage === p && classes.selected}
+                            className={currentPage === p ? classes.selected : ''}
                             onClick={e => {
                                 onPageChanged(p);
                             }}

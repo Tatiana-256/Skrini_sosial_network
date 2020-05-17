@@ -97,8 +97,8 @@ const profileReducer = (state = initialState, action: any): initialStateType => 
 // ____________________TYPES FOR ACTION CREATORS__________________
 
 type addPostActionCreatorType = { type: typeof ADD_POST, newPostText: string }
-type setLikeType = { type: typeof SET_LIKE, postId: number }
-type deleteLikeType = { type: typeof DELETE_LIKE, postId: number }
+type setLikeType = { type: typeof SET_LIKE, postId: string }
+type deleteLikeType = { type: typeof DELETE_LIKE, postId: string }
 type setUserProfileType = { type: typeof SET_USER_PROFILE, profile: profileType }
 type setStatusType = { type: typeof SET_STATUS, status: string }
 type savePhotoSuccessType = { type: typeof SET_PHOTOS_SUCCESS, photos: photosType }
@@ -110,8 +110,8 @@ export const addPostActionCreator = (newPostText: string): addPostActionCreatorT
     type: ADD_POST,
     newPostText
 });
-export const setLike = (postId: number): setLikeType => ({type: SET_LIKE, postId})
-export const deleteLike = (postId: number): deleteLikeType => ({type: DELETE_LIKE, postId})
+export const setLike = (postId: string): setLikeType => ({type: SET_LIKE, postId})
+export const deleteLike = (postId: string): deleteLikeType => ({type: DELETE_LIKE, postId})
 export const setUserProfile = (profile: profileType): setUserProfileType =>
     ({type: SET_USER_PROFILE, profile});
 export const setStatus = (status: string): setStatusType => ({type: SET_STATUS, status});
@@ -120,12 +120,12 @@ export const savePhotoSuccess = (photos: photosType): savePhotoSuccessType => ({
     photos
 });
 
-export const getUserProfile = (userId: number) => async (dispatch: any) => {
+export const getUserProfile = (userId: string) => async (dispatch: any) => {
     let response = await usersAPI.setUserProfileAPI(userId);
     dispatch(setUserProfile(response));
 };
 
-export const getStatus = (userId: number) => async (dispatch: any) => {
+export const getStatus = (userId: string) => async (dispatch: any) => {
     let response = await profileAPI.getStatus(userId);
     dispatch(setStatus(response));
 };

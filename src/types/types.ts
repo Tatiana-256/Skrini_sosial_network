@@ -5,7 +5,7 @@ export type postType = {
     like: boolean
 }
 export type profileType = {
-    userId: number,
+    userId: string | null,
     lookingForAJob: boolean,
     lookingForAJobDescription: string,
     fullName: string,
