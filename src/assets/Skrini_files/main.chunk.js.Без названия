@@ -1362,9 +1362,9 @@ if (true) {
 
 /***/ }),
 
-/***/ "./src/components/ProfileComponents/MyPosts/MyPostsContainer.jsx":
+/***/ "./src/components/ProfileComponents/MyPosts/MyPostsContainer.tsx":
 /*!***********************************************************************!*\
-  !*** ./src/components/ProfileComponents/MyPosts/MyPostsContainer.jsx ***!
+  !*** ./src/components/ProfileComponents/MyPosts/MyPostsContainer.tsx ***!
   \***********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1524,8 +1524,8 @@ if (true) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _ProfileInfo_ProfileInfo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProfileInfo/ProfileInfo */ "./src/components/ProfileComponents/ProfileInfo/ProfileInfo.jsx");
-/* harmony import */ var _MyPosts_MyPostsContainer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MyPosts/MyPostsContainer */ "./src/components/ProfileComponents/MyPosts/MyPostsContainer.jsx");
+/* harmony import */ var _ProfileInfo_ProfileInfo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProfileInfo/ProfileInfo */ "./src/components/ProfileComponents/ProfileInfo/ProfileInfo.tsx");
+/* harmony import */ var _MyPosts_MyPostsContainer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MyPosts/MyPostsContainer */ "./src/components/ProfileComponents/MyPosts/MyPostsContainer.tsx");
 var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\ProfileComponents\\ProfileComponent.tsx";
 
 
@@ -1628,9 +1628,9 @@ let WithUrlDataContainerComponent = Object(react_router_dom__WEBPACK_IMPORTED_MO
 
 /***/ }),
 
-/***/ "./src/components/ProfileComponents/ProfileInfo/ProfileInfo.jsx":
+/***/ "./src/components/ProfileComponents/ProfileInfo/ProfileInfo.tsx":
 /*!**********************************************************************!*\
-  !*** ./src/components/ProfileComponents/ProfileInfo/ProfileInfo.jsx ***!
+  !*** ./src/components/ProfileComponents/ProfileInfo/ProfileInfo.tsx ***!
   \**********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1642,7 +1642,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ProfileInfo_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProfileInfo.module.css */ "./src/components/ProfileComponents/ProfileInfo/ProfileInfo.module.css");
 /* harmony import */ var _ProfileInfo_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_ProfileInfo_module_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _common_Preloader_Preloader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../common/Preloader/Preloader */ "./src/components/common/Preloader/Preloader.js");
-var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\ProfileComponents\\ProfileInfo\\ProfileInfo.jsx";
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\ProfileComponents\\ProfileInfo\\ProfileInfo.tsx";
 
 
 

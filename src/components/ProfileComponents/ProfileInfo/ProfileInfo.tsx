@@ -1,24 +1,36 @@
-import React, {useState, useEffect, setEditMode} from "react";
+import React, {useState, useEffect} from "react";
 import classes from "./ProfileInfo.module.css";
 import Preloader from "../../common/Preloader/Preloader";
 import ProfileStatusWithHooks from "./ProfileStatus/ProfileStatusWithHooks";
 import userPhoto from "../../../assets/images.png";
 import ProfileDataForm from "./ProfileDataForm";
+import {profileType} from "../../../types/types";
 
-const ProfileInfo = props => {
+
+type PropsInfoType = {
+    profile: profileType
+    savePhoto: (a: number) => void
+    saveProfile: (a: profileType) => void
+    isOwner: boolean
+    status: string
+    updateStatus: (status: string) => void
+}
+
+
+const ProfileInfo: React.FC<PropsInfoType> = props => {
     let [editMode, setEditMode] = useState(false);
 
     if (!props.profile) {
         return <Preloader/>;
     }
 
-    const mainPhotoSelected = e => {
+    const mainPhotoSelected = (e: any) => {
         if (e.target.files.length) {
             props.savePhoto(e.target.files[0]);
         }
     };
 
-    const handleSubmit = formData => {
+    const handleSubmit = (formData: profileType) => {
         props.saveProfile(formData);
         setEditMode(false);
     };
@@ -53,7 +65,14 @@ const ProfileInfo = props => {
     );
 };
 
-const ProfileData = props => {
+type PropsDataType = {
+    profile: profileType
+    isOwner: boolean
+    goToAditMode: () => void
+
+}
+
+const ProfileData: React.FC<PropsDataType> = props => {
     return (
         <div className={classes.edit}>
             <div>

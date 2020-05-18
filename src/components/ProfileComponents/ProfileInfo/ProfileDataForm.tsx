@@ -6,7 +6,12 @@ import {
 } from "../../common/FormsControls/FormsControls";
 import { reduxForm } from "redux-form";
 
-const ProfileDataForm = props => {
+
+type FormPropsType = {
+    handleSubmit: () => void
+}
+
+const ProfileDataForm: React.FC<FormPropsType> = props => {
   return (
     <form onSubmit={props.handleSubmit}>
       <div>

@@ -34,6 +34,7 @@ type mapStateToPropsType = {
 
 }
 type mapDispatchToPropsType = {
+
     follow: (userId: string) => void,
     unfollow: (userId: string) => void,
     setCurrentPage: (currentPage: number, pageSize: number) => void,
@@ -42,9 +43,9 @@ type mapDispatchToPropsType = {
 
 }
 
-type TOwnProps = {}
+type OwnPropsType = {}
 
-type PropsType = mapDispatchToPropsType & mapStateToPropsType & TOwnProps
+type PropsType = mapDispatchToPropsType & mapStateToPropsType & OwnPropsType
 
 class UsersContainer extends React.Component<PropsType> {
     componentDidMount() {
@@ -88,7 +89,7 @@ let mapStateToProps = (state: AppStateType): mapStateToPropsType => {
 
 export default compose(
     //TStateProps = {}, TDispatchProps = {}, TOwnProps = {}, State = DefaultRootState
-    connect<mapStateToPropsType, mapDispatchToPropsType, TOwnProps, AppStateType>(mapStateToProps, {
+    connect<mapStateToPropsType, mapDispatchToPropsType, OwnPropsType, AppStateType>(mapStateToProps, {
         follow: follow,
         unfollow: unfollow,
         setCurrentPage: setCurrentPage,
