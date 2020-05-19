@@ -27,7 +27,6 @@ type mapStateToPropsType = {
     pageSize: number,
     isFetching: boolean,
     totalUsersCount: number,
-
     users: Array<userType>,
     followingInProgress: any // change
 
@@ -35,11 +34,11 @@ type mapStateToPropsType = {
 }
 type mapDispatchToPropsType = {
 
-    follow: (userId: string) => void,
+    follow: (userId: string) =>void,
     unfollow: (userId: string) => void,
     setCurrentPage: (currentPage: number, pageSize: number) => void,
     getUsers: (currentPage: number, pageSize: number) => void,
-    toggleFollowingProgress: () => void
+    toggleFollowingProgress: (isFetching: boolean, userId: string) => void
 
 }
 
@@ -87,13 +86,11 @@ let mapStateToProps = (state: AppStateType): mapStateToPropsType => {
 };
 
 
-export default compose(
-    //TStateProps = {}, TDispatchProps = {}, TOwnProps = {}, State = DefaultRootState
-    connect<mapStateToPropsType, mapDispatchToPropsType, OwnPropsType, AppStateType>(mapStateToProps, {
-        follow: follow,
-        unfollow: unfollow,
-        setCurrentPage: setCurrentPage,
-        getUsers: getUsers,
-        toggleFollowingProgress
-    })
-)(UsersContainer);
+export default //TStateProps = {}, TDispatchProps = {}, TOwnProps = {}, State = DefaultRootState
+connect<mapStateToPropsType, mapDispatchToPropsType, OwnPropsType, AppStateType >(mapStateToProps, {
+    follow,
+    unfollow,
+    setCurrentPage,
+    getUsers,
+    toggleFollowingProgress
+})(UsersContainer);

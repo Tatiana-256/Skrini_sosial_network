@@ -1,14 +1,17 @@
-import React from "react";
+import React, {FormEvent} from "react";
 import {
   createField,
   Input,
   Textarea
 } from "../../common/FormsControls/FormsControls";
 import { reduxForm } from "redux-form";
+import {profileType} from "../../../types/types";
 
 
 type FormPropsType = {
-    handleSubmit: () => void
+    handleSubmit: (event: FormEvent<HTMLFormElement>)=> void
+    // event: FormEvent<HTMLFormElement>)
+    // formData: profileType
 }
 
 const ProfileDataForm: React.FC<FormPropsType> = props => {

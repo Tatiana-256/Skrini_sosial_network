@@ -1,14 +1,15 @@
 import React from "react";
-import {addPostActionCreator, deleteLike, setLike} from "../../../redux/profile-reducer";
+import {ActionCreatorType, addPostActionCreator, deleteLike, setLike} from "../../../redux/profile-reducer";
 import MyPosts from "./MyPosts";
 import {connect} from "react-redux";
-import {postType, userType} from "../../../types/types";
+import {contactsType, postType, userType} from "../../../types/types";
 import {AppStateType} from "../../../redux/redux-store";
-
+import {ActionTypes} from "redux-form";
+import {Dispatch} from "redux";
 
 
 type mapStateToPropsType = {
-    posts: postType,
+    posts: Array<postType>,
     newPostText: string
 
 
@@ -16,18 +17,19 @@ type mapStateToPropsType = {
 type mapDispatchToPropsType = {
     addPost: (newPostText: string) => void
     setLike: (postId: string) => void
-    deleteLike:  (postId: string) => void
+    deleteLike: (postId: string) => void
 }
 
+type DispatchType = Dispatch<ActionCreatorType>
 
-const mapStateToProps = (state) => {
+const mapStateToProps = (state: AppStateType): mapStateToPropsType => {
     return {
         posts: state.profilePage.postData,
         newPostText: state.profilePage.newPostText
     };
 };
 
-const mapDispatchToProps =( dispatch) => {
+const mapDispatchToProps = (dispatch: DispatchType): mapDispatchToPropsType => {
     return {
         addPost: newPostText => {
             dispatch(addPostActionCreator(newPostText));
