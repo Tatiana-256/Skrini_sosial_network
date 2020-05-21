@@ -1,8 +1,8 @@
-import {usersAPI} from "../api/api";
+import {ResultCodeEnum, usersAPI} from "../api/api";
 import {stopSubmit} from "redux-form";
 import {ThunkAction} from "redux-thunk";
 import {AppStateType} from "./redux-store";
-import {ActionCreatorType} from "./profile-reducer";
+import {FormAction} from "redux-form/lib/actions";
 
 const SET_USER_DATA = "auth/SET_USER_DATA";
 
@@ -51,31 +51,28 @@ export const setAuthUserData = (userId: string | null, email: string | null,
 });
 
 
-
 // ___________thunk-creators_____________
 
-type thunkType= ThunkAction<Promise<void>, AppStateType, unknown, setAuthUserDataType>
+type thunkType = ThunkAction<Promise<void>, AppStateType, unknown, setAuthUserDataType | FormAction>
 
 
 export const getAuthUserData = (): thunkType => async (dispatch) => {
-    let response = await usersAPI.me();
-    if (response.data.resultCode === 0) {
-        let {id, email, login} = response.data.data;
+    let meData = await usersAPI.me();
+    if (meData.resultCode === ResultCodeEnum.Success) {
+        let {id, email, login} = meData.data;
         dispatch(setAuthUserData(id, email, login, true));
     }
 };
 
 
-
-
-export const login = (email: string, password: string, rememberMe: boolean):thunkType => async (dispatch) => {
+export const login = (email: string, password: string, rememberMe: boolean): thunkType => async (dispatch) => {
     let response = await usersAPI.logIn(email, password, rememberMe);
-    if (response.data.resultCode === 0) {
+    if (response.resultCode === ResultCodeEnum.Success) {
         dispatch(getAuthUserData());
     } else {
         let message =
-            response.data.messages.length > 0
-                ? response.data.messages[0]
+            response.messages.length > 0
+                ? response.messages[0]
                 : "Some error";
         dispatch(
             stopSubmit("login", {
@@ -86,7 +83,7 @@ export const login = (email: string, password: string, rememberMe: boolean):thun
 };
 export const logout = (): thunkType => async (dispatch) => {
     let response = await usersAPI.logOut();
-    if (response.data.resultCode === 0) {
+    if (response.data.resultCode === ResultCodeEnum.Success) {
         dispatch(setAuthUserData(null, null, null, false));
     }
 };

@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.ts */ "./node_modules/css-loader/dist/runtime/api.ts")(false);
 // Module
 exports.push([module.i, ".App-wrapper {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  display: grid;\n  grid-area: h;\n  grid-gap: 20px;\n  grid-template-columns: 1fr 5fr;\n  grid-template-rows: 80px 1fr;\n  grid-template-areas: \"h h\" \"n c\";\n  background-image: url(https://fondos.io/wp-content/uploads/2019/01/horizontal-wallpapers-hd_5099.png);\n  background-image: linear-gradient(\n      rgba(237, 233, 243, 0.959),\n      rgba(167, 102, 167, 0.678)\n    ),\n    url(https://fondos.io/wp-content/uploads/2019/01/horizontal-wallpapers-hd_5099.png);\n  text-transform: uppercase;\n}\n.app-wraper-content {\n  grid-area: c;\n  padding: 7px;\n  display: block;\n}\n", ""]);
 
@@ -22,7 +22,7 @@ exports.push([module.i, ".App-wrapper {\n  position: absolute;\n  width: 100%;\n
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.ts */ "./node_modules/css-loader/dist/runtime/api.ts")(false);
 // Module
 exports.push([module.i, ".Dialogs_dialogs__10CJ4 {\r\n  display: grid;\r\n  grid-template-columns: 1fr 3fr;\r\n}\r\n\r\n.Dialogs_dialogs_items__pNy5T,\r\n.Dialogs_message_items__sKlUB {\r\n  padding: 40px;\r\n}\r\n.Dialogs_dialog__10BJU {\r\n  margin-top: 10px;\r\n}\r\n\r\n.Dialogs_dialogs_items__pNy5T .Dialogs_active__2ekOR {\r\n  color: darkorchid;\r\n}\r\n\r\n.Dialogs_message__1BoiA {\r\n  margin-top: 10px;\r\n}\r\n", ""]);
 
@@ -45,7 +45,7 @@ exports.locals = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.ts */ "./node_modules/css-loader/dist/runtime/api.ts")(false);
 // Module
 exports.push([module.i, ".Header_header__2CKRV {\n  grid-area: h;\n  background-color: rgb(233, 235, 126);\n  background-image: linear-gradient(\n    rgba(321, 160, 221, 0.829),\n    rgba(237, 233, 243, 0.356)\n  );\n  margin-left: 10px;\n}\n\n.Header_header__2CKRV img {\n  width: 90px;\n  height: 60px;\n  margin-left: 15px;\n}\n\nheader div {\n  position: relative;\n  text-transform: uppercase;\n  word-spacing: 3px;\n  letter-spacing: 4px;\n  float: right;\n  margin-top: 10px;\n  margin-right: 50px;\n  /* font-family: SourceSansPro-Bold; */\n  font-family: Comic Sans MS;\n  font-size: 30px;\n  color: #4b2354;\n  line-height: 1.2;\n}\n\n.Header_social_log_in__2avtA {\n  /* font-family: SourceSansPro-Bold; */\n  text-decoration: none;\n  font-size: 30px;\n  color: #ddf8ab;\n  line-height: 1.2;\n  text-shadow: rgb(37, 37, 37) 0 0 4px;\n  margin-right: 20px;\n}\n", ""]);
 
@@ -64,7 +64,7 @@ exports.locals = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.ts */ "./node_modules/css-loader/dist/runtime/api.ts")(false);
 // Module
 exports.push([module.i, ".Music_stile__2_b_e {\n  letter-spacing: 2px;\n  font-family: Georgia, \"Times New Roman\", Times, serif;\n  font-size: 20px;\n  color: rgb(0, 0, 94);\n}\n", ""]);
 
@@ -82,7 +82,7 @@ exports.locals = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.ts */ "./node_modules/css-loader/dist/runtime/api.ts")(false);
 // Module
 exports.push([module.i, ".Nav_items__3qsWT a {\n  letter-spacing: 2px;\n  font-family: Comic Sans MS;\n  font-size: 23px;\n  color: rgb(0, 0, 94);\n  text-decoration: none;\n}\n\n.Nav_items__3qsWT a.Nav_activeLink__HV3Iw {\n  color: rgb(68, 68, 68);\n  text-shadow: rgb(37, 37, 37) 0 0 1px;\n}\n.Nav_nav__qE4fa {\n  grid-area: n;\n  background-color: rgb(233, 235, 126);\n  background-image: linear-gradient(\n    rgba(237, 233, 243, 0.356),\n    rgba(321, 127, 221, 0.829)\n  );\n  margin: 10px 10px;\n  padding: 20px 10px;\n}\n\n.Nav_nav__qE4fa div {\n  margin-bottom: 30px;\n  border-bottom: 1.5px solid #858585;\n}\n", ""]);
 
@@ -102,7 +102,7 @@ exports.locals = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.ts */ "./node_modules/css-loader/dist/runtime/api.ts")(false);
 // Module
 exports.push([module.i, ".News_stile__2paXM {\n  letter-spacing: 2px;\n  font-family: Georgia, \"Times New Roman\", Times, serif;\n  font-size: 20px;\n  color: rgb(0, 0, 94);\n}\n", ""]);
 
@@ -120,7 +120,7 @@ exports.locals = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.ts */ "./node_modules/css-loader/dist/runtime/api.ts")(false);
 // Module
 exports.push([module.i, "button {\r\n  margin: 10px 10px;\r\n  color: rgb(15, 4, 4);\r\n  background: #eeff55;\r\n  text-transform: uppercase;\r\n  width: 200px;\r\n  height: 35px;\r\n  border-radius: 25px;\r\n}\r\n\r\n.MyPosts_posts__1XZz9 {\r\n  margin-top: 20px;\r\n}\r\n\r\ntextarea {\r\n  width: 30%;\r\n  height: 100px;\r\n  resize: none;\r\n}\r\n", ""]);
 
@@ -138,7 +138,7 @@ exports.locals = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.ts */ "./node_modules/css-loader/dist/runtime/api.ts")(false);
 // Module
 exports.push([module.i, ".Post_items__1prb9 {\r\n  color: #ffffff;\r\n}\r\n\r\n.Post_items__1prb9 img {\r\n  width: 150px;\r\n  border-radius: 45px;\r\n}\r\n", ""]);
 
@@ -156,7 +156,7 @@ exports.locals = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.ts */ "./node_modules/css-loader/dist/runtime/api.ts")(false);
 // Module
 exports.push([module.i, ".ProfileInfo_fone_picture__39XyE {\r\n  width: 100%;\r\n  height: 200px;\r\n}\r\n\r\n.ProfileInfo_fone_picture_color__1p9zZ {\r\n  width: 10%;\r\n  height: auto;\r\n  border-radius: 50px;\r\n}\r\n", ""]);
 
@@ -175,7 +175,7 @@ exports.locals = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.ts */ "./node_modules/css-loader/dist/runtime/api.ts")(false);
 // Module
 exports.push([module.i, ".Settings_stile__3yDzq {\n  letter-spacing: 2px;\n  font-family: Georgia, \"Times New Roman\", Times, serif;\n  font-size: 20px;\n  color: rgb(0, 0, 94);\n}\n", ""]);
 
@@ -193,7 +193,7 @@ exports.locals = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.ts */ "./node_modules/css-loader/dist/runtime/api.ts")(false);
 // Module
 exports.push([module.i, ".Users_userPhoto__2UR6e {\r\n  width: 150px;\r\n  height: auto;\r\n  border-radius: 50px;\r\n  position: left;\r\n}\r\n\r\n.Users_selected__fQXuh {\r\n  font-weight: bold;\r\n  font-size: 20px;\r\n}\r\n\r\nspan {\r\n  padding: 2px;\r\n}\r\n", ""]);
 
@@ -212,7 +212,7 @@ exports.locals = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.ts */ "./node_modules/css-loader/dist/runtime/api.ts")(false);
 // Module
 exports.push([module.i, "body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\",\n    \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\",\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\",\n    monospace;\n}\n", ""]);
 

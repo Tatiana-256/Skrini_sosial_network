@@ -20,6 +20,8 @@ type mapDispatchToPropsType = {
     deleteLike: (postId: string) => void
 }
 
+type ownProps ={}
+
 type DispatchType = Dispatch<ActionCreatorType>
 
 const mapStateToProps = (state: AppStateType): mapStateToPropsType => {
@@ -43,6 +45,6 @@ const mapDispatchToProps = (dispatch: DispatchType): mapDispatchToPropsType => {
     };
 };
 
-const MyPostsContainer = connect<mapStateToPropsType, mapDispatchToPropsType, null, AppStateType>(mapStateToProps, mapDispatchToProps)(MyPosts);
+const MyPostsContainer = connect<mapStateToPropsType, mapDispatchToPropsType, ownProps, AppStateType>(mapStateToProps, mapDispatchToProps)(MyPosts);
 
 export default MyPostsContainer;

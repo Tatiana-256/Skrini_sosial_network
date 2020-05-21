@@ -10,7 +10,7 @@ import {profileType} from "../../../types/types";
 type PropsInfoType = {
     profile: profileType
     savePhoto: (a: number) => void
-    saveProfile: (a: profileType) => void
+    saveProfile: (profile: profileType) => void
     isOwner: boolean
     status: string
     updateStatus: (status: string) => void
