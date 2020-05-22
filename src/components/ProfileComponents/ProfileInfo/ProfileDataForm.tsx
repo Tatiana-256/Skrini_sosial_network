@@ -4,18 +4,10 @@ import {
     Input,
     Textarea
 } from "../../common/FormsControls/FormsControls";
-import {reduxForm} from "redux-form";
-import {profileType} from "../../../types/types";
-import {FormAction} from "redux-form/lib/actions";
+import {InjectedFormProps, reduxForm} from "redux-form";
 
 
-type FormPropsType = {
-    handleSubmit: ( formData: profileType) => void
-    // event: FormEvent<HTMLFormElement>)
-    // formData: profileType
-}
-
-const ProfileDataForm: React.FC<FormPropsType> = props => {
+const ProfileDataForm : React.FC<InjectedFormProps> = props => {
     return (
         <form onSubmit={props.handleSubmit}>
             <div>
