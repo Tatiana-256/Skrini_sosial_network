@@ -2,7 +2,7 @@ import {usersAPI, profileAPI} from "../api/api";
 import {updateObjectInArray} from "../components/utils/commonObject";
 import {photosType, postType, profileType} from "../types/types";
 import {ThunkAction} from "redux-thunk";
-import {AppStateType} from "./redux-store";
+import {AppStateType, InferActionsTypes} from "./redux-store";
 
 const ADD_POST = "profile/ADD-POST";
 const SET_LIKE = 'SET_LIKE'
@@ -98,65 +98,46 @@ const profileReducer = (state = initialState, action: ActionCreatorType): initia
 
 // ____________________TYPES FOR ACTION CREATORS__________________
 
-export type ActionCreatorType = addPostActionCreatorType
-    | setLikeType
-    | deleteLikeType
-    | setUserProfileType
-    | setStatusType
-    | savePhotoSuccessType
-
-
-type addPostActionCreatorType = { type: typeof ADD_POST, newPostText: string }
-type setLikeType = { type: typeof SET_LIKE, postId: string }
-type deleteLikeType = { type: typeof DELETE_LIKE, postId: string }
-type setUserProfileType = { type: typeof SET_USER_PROFILE, profile: profileType }
-type setStatusType = { type: typeof SET_STATUS, status: string }
-type savePhotoSuccessType = { type: typeof SET_PHOTOS_SUCCESS, photos: photosType }
-
+export type ActionCreatorType = InferActionsTypes<typeof profileActions>
 
 // ____________________ACTION CREATORS__________________
 
-export const addPostActionCreator = (newPostText: string): addPostActionCreatorType => ({
-    type: ADD_POST,
-    newPostText
-});
-export const setLike = (postId: string): setLikeType => ({type: SET_LIKE, postId})
-export const deleteLike = (postId: string): deleteLikeType => ({type: DELETE_LIKE, postId})
-export const setUserProfile = (profile: profileType): setUserProfileType =>
-    ({type: SET_USER_PROFILE, profile});
-export const setStatus = (status: string): setStatusType => ({type: SET_STATUS, status});
-export const savePhotoSuccess = (photos: photosType): savePhotoSuccessType => ({
-    type: SET_PHOTOS_SUCCESS,
-    photos
-});
+export const profileActions = {
+    addPostActionCreator: (newPostText: string) => ({type: ADD_POST, newPostText} as const),
+    setLike: (postId: string) => ({type: SET_LIKE, postId}as const),
+    deleteLike: (postId: string) => ({type: DELETE_LIKE, postId}as const),
+    setUserProfile: (profile: profileType) => ({type: SET_USER_PROFILE, profile}as const),
+    setStatus: (status: string) => ({type: SET_STATUS, status}as const),
+    savePhotoSuccess: (photos: photosType) => ({type: SET_PHOTOS_SUCCESS, photos}as const)
+}
+
 
 // ___________thunk-creators_____________
 
-type thunkType= ThunkAction<Promise<void>, AppStateType, unknown, ActionCreatorType>
-
+type thunkType = ThunkAction<Promise<void>, AppStateType, unknown, ActionCreatorType>
 
 
 export const getUserProfile = (userId: string): thunkType => async (dispatch) => {
     let response = await usersAPI.setUserProfileAPI(userId);
-    dispatch(setUserProfile(response));
+    dispatch(profileActions.setUserProfile(response));
 };
 
 export const getStatus = (userId: string): thunkType => async (dispatch) => {
     let response = await profileAPI.getStatus(userId);
-    dispatch(setStatus(response));
+    dispatch(profileActions.setStatus(response));
 };
 
 export const updateStatus = (status: string): thunkType => async (dispatch) => {
     let response = await profileAPI.updateStatus(status);
     if (response.resultCode === 0) {
-        dispatch(setStatus(status));
+        dispatch(profileActions.setStatus(status));
     }
 };
 
 export const savePhoto = (file: any): thunkType => async (dispatch) => {
     let response = await profileAPI.savePhoto(file);
     if (response.data.resultCode === 0) {
-        dispatch(savePhotoSuccess(response.data.photos));
+        dispatch(profileActions.savePhotoSuccess(response.data.photos));
     }
 };
 
@@ -165,7 +146,7 @@ export const saveProfile = (profile: profileType): thunkType => async (dispatch,
     let response = await profileAPI.saveProfile(profile);
     if (response.data.resultCode === 0) {
         dispatch(getUserProfile(userId));
-    }
+        }
 };
 
 export default profileReducer;

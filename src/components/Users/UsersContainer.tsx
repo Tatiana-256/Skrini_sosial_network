@@ -3,13 +3,10 @@ import {connect} from "react-redux";
 import {
     follow,
     unfollow,
-    setCurrentPage,
-    toggleFollowingProgress,
-    getUsers
+    getUsers,
 } from "../../redux/users-reducer";
 import Users from "./Users";
 import Preloader from "../common/Preloader/Preloader";
-import {compose} from "redux";
 import {
     getAllUsers,
     getPageSize,
@@ -36,9 +33,7 @@ type mapDispatchToPropsType = {
 
     follow: (userId: string) =>void,
     unfollow: (userId: string) => void,
-    setCurrentPage: (currentPage: number, pageSize: number) => void,
     getUsers: (currentPage: number, pageSize: number) => void,
-    toggleFollowingProgress: (isFetching: boolean, userId: string) => void
 
 }
 
@@ -90,7 +85,5 @@ export default //TStateProps = {}, TDispatchProps = {}, TOwnProps = {}, State = 
 connect<mapStateToPropsType, mapDispatchToPropsType, OwnPropsType, AppStateType >(mapStateToProps, {
     follow,
     unfollow,
-    setCurrentPage,
     getUsers,
-    toggleFollowingProgress
 })(UsersContainer);
