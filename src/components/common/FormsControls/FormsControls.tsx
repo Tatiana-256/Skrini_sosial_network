@@ -5,12 +5,11 @@ import {fieldValidatorType} from "../../utils/validators/validators";
 
 
 type FormControlPropsType = {
-  meta: WrappedFieldMetaProps
+    meta: WrappedFieldMetaProps
 }
 
 
-
-const FormControl: React.FC< FormControlPropsType> = ({meta: {touched, error}, children}) => {
+const FormControl: React.FC<FormControlPropsType> = ({meta: {touched, error}, children}) => {
     const hasError = touched && error;
     return (
         <div
@@ -45,15 +44,15 @@ export const Input: React.FC<WrappedFieldProps> = props => {
     );
 };
 
-export const createField = (
+export function createField<FormKeysType extends string>(
     placeholder: string | undefined,
-    name: string,
+    name: FormKeysType,
     component: React.FC<WrappedFieldProps>,
     className: any,
     validate: Array<fieldValidatorType>,
     props = {},
     text = ""
-) => {
+) {
     return (
         <div>
             <Field

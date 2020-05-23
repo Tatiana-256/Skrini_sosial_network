@@ -19,9 +19,12 @@ type mapDispatchPropsType = {
 
 type PropsType = mapStatePropsType & mapDispatchPropsType
 
-type loginFormDataValuesType = {
+
+export type loginFormDataValuesType = {
     email: string, password: string, rememberMe: boolean
 }
+
+type loginFormDataValuesTypesKeys = Extract<keyof loginFormDataValuesType, string>
 
 
 const Login: React.FC<PropsType> = props => {
@@ -44,11 +47,11 @@ const LoginForm: React.FC<InjectedFormProps<loginFormDataValuesType>> = ({handle
     return (
         <div className={classes.form}>
             <form onSubmit={handleSubmit}>
-                {createField("Email", "email", Input, classes.input, [required])}
-                {createField("Password", "password", Input, classes.input, [required], {
+                {createField<loginFormDataValuesTypesKeys>("Email", "email", Input, classes.input, [required])}
+                {createField<loginFormDataValuesTypesKeys>("Password", "password", Input, classes.input, [required], {
                     type: "password"
                 })}
-                {createField(
+                {createField<loginFormDataValuesTypesKeys>(
                     undefined,
                     "rememberMe",
                     Input,
@@ -66,7 +69,7 @@ const LoginForm: React.FC<InjectedFormProps<loginFormDataValuesType>> = ({handle
     );
 };
 
-const LoginReduxForm= reduxForm<loginFormDataValuesType>({
+const LoginReduxForm = reduxForm<loginFormDataValuesType>({
     form: "login"
 })(LoginForm);
 
