@@ -1,9 +1,10 @@
-import {ResultCodeEnum, usersAPI} from "../api/api";
+import {ResultCodeEnum} from "../api/api";
 import {updateObjectInArray} from "../components/utils/commonObject";
 import {userType} from "../types/types";
-import {AppStateType, InferActionsTypes} from "./redux-store";
+import {AppStateType, baseThunkType, InferActionsTypes} from "./redux-store";
 import {ThunkAction} from "redux-thunk";
 import {Dispatch} from "redux";
+import {usersAPI} from "../api/users-api";
 
 const FOLLOW = "user/FOLLOW";
 const UNFOLLOW = "user/UNFOLLOW";
@@ -101,7 +102,7 @@ export const userActions = {
 
 // ___________thunk-creators_____________
 
-type thunkType = ThunkAction<Promise<void>, AppStateType, unknown, actionsTypes>
+type thunkType = baseThunkType<actionsTypes>
 type DispatchType = Dispatch<actionsTypes>
 
 

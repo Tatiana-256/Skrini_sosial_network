@@ -15,15 +15,16 @@ import {profileType, userType} from "../../types/types";
 import {AppStateType} from "../../redux/redux-store";
 import {RouteComponentProps} from "react-router";
 
+type mapStateToPropsType = ReturnType<typeof mapStateToProps>
 
-type mapStateToPropsType = {
-    profile: profileType | null,
-    status: string,
-    authorizedUserId: string | null,
-    isAuth: boolean
+// type mapStateToPropsType = {
+//     profile: profileType | null,
+//     status: string,
+//     authorizedUserId: string | null,
+//     isAuth: boolean
+// }
 
 
-}
 type mapDispatchToPropsType = {
     getUserProfile: (userId: string) => void
     getStatus: (userId: string) => void
@@ -59,6 +60,7 @@ class ProfileContainer extends React.Component<PropsType> {
         this.refreshProfile();
     }
 
+
     componentDidUpdate(prevProps: PropsType) {
         debugger
         if (this.props.match.params.userId != prevProps.match.params.userId) {
@@ -81,14 +83,14 @@ class ProfileContainer extends React.Component<PropsType> {
     }
 }
 
-let mapStateToProps = (state: AppStateType): mapStateToPropsType => ({
+let mapStateToProps = (state: AppStateType) => ({
     profile: state.profilePage.profile,
     status: state.profilePage.status,
     authorizedUserId: state.auth.userId,
     isAuth: state.auth.isAuth
 });
 
-export default compose(
+export default compose<React.ComponentType>(
     connect<mapStateToPropsType, mapDispatchToPropsType, TOwnProps, AppStateType>(mapStateToProps, {
         getUserProfile,
         getStatus,

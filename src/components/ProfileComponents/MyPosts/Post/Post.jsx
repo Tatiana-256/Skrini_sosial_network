@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./Post.module.css";
-import {inherits} from "util";
 
 const Post = props => {
     console.log(props.like)

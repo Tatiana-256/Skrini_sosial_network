@@ -2,9 +2,8 @@ import React from "react";
 import {ActionCreatorType, profileActions} from "../../../redux/profile-reducer";
 import MyPosts from "./MyPosts";
 import {connect} from "react-redux";
-import {contactsType, postType, userType} from "../../../types/types";
+import {postType} from "../../../types/types";
 import {AppStateType} from "../../../redux/redux-store";
-import {ActionTypes} from "redux-form";
 import {Dispatch} from "redux";
 
 

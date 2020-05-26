@@ -1,8 +1,9 @@
-import {usersAPI, profileAPI} from "../api/api";
 import {updateObjectInArray} from "../components/utils/commonObject";
 import {photosType, postType, profileType} from "../types/types";
 import {ThunkAction} from "redux-thunk";
-import {AppStateType, InferActionsTypes} from "./redux-store";
+import {AppStateType, baseThunkType, InferActionsTypes} from "./redux-store";
+import {usersAPI} from "../api/users-api";
+import {profileAPI} from "../api/profile-api";
 
 const ADD_POST = "profile/ADD-POST";
 const SET_LIKE = 'SET_LIKE'
@@ -114,7 +115,7 @@ export const profileActions = {
 
 // ___________thunk-creators_____________
 
-type thunkType = ThunkAction<Promise<void>, AppStateType, unknown, ActionCreatorType>
+type thunkType = baseThunkType<ActionCreatorType>
 
 
 export const getUserProfile = (userId: string): thunkType => async (dispatch) => {
@@ -134,10 +135,10 @@ export const updateStatus = (status: string): thunkType => async (dispatch) => {
     }
 };
 
-export const savePhoto = (file: any): thunkType => async (dispatch) => {
+export const savePhoto = (file: File): thunkType => async (dispatch) => {
     let response = await profileAPI.savePhoto(file);
     if (response.data.resultCode === 0) {
-        dispatch(profileActions.savePhotoSuccess(response.data.photos));
+        dispatch(profileActions.savePhotoSuccess(response.data.data.photos));
     }
 };
 

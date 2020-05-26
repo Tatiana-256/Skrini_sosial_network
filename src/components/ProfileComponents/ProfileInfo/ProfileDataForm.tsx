@@ -5,6 +5,7 @@ import {
     Textarea
 } from "../../common/FormsControls/FormsControls";
 import {InjectedFormProps, reduxForm} from "redux-form";
+import {profileType} from "../../../types/types";
 
 
 const ProfileDataForm : React.FC<InjectedFormProps> = props => {

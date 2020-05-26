@@ -1641,7 +1641,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _ProfileInfo_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProfileInfo.module.css */ "./src/components/ProfileComponents/ProfileInfo/ProfileInfo.module.css");
 /* harmony import */ var _ProfileInfo_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_ProfileInfo_module_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _common_Preloader_Preloader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../common/Preloader/Preloader */ "./src/components/common/Preloader/Preloader.js");
+/* harmony import */ var _common_Preloader_Preloader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../common/Preloader/Preloader */ "./src/components/common/Preloader/Preloader.tsx");
 var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\ProfileComponents\\ProfileInfo\\ProfileInfo.tsx";
 
 
@@ -2064,7 +2064,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Users__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Users */ "./src/components/Users/Users.ts");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _common_Preloader_Preloader__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../common/Preloader/Preloader */ "./src/components/common/Preloader/Preloader.js");
+/* harmony import */ var _common_Preloader_Preloader__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../common/Preloader/Preloader */ "./src/components/common/Preloader/Preloader.tsx");
 var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Users\\UsersContainer.tsx";
 
 
@@ -2147,9 +2147,9 @@ let mapStateToProps = state => {
 
 /***/ }),
 
-/***/ "./src/components/common/Preloader/Preloader.js":
+/***/ "./src/components/common/Preloader/Preloader.tsx":
 /*!******************************************************!*\
-  !*** ./src/components/common/Preloader/Preloader.js ***!
+  !*** ./src/components/common/Preloader/Preloader.tsx ***!
   \******************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -2160,7 +2160,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _assets_loading_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../assets/loading.svg */ "./src/assets/loading.svg");
 /* harmony import */ var _assets_loading_svg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_loading_svg__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\common\\Preloader\\Preloader.js";
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\common\\Preloader\\Preloader.tsx";
 
 
 

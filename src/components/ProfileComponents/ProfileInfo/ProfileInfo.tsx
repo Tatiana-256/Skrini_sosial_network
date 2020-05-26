@@ -5,12 +5,13 @@ import ProfileStatusWithHooks from "./ProfileStatus/ProfileStatusWithHooks";
 import userPhoto from "../../../assets/images.png";
 import ProfileDataForm from "./ProfileDataForm";
 import {profileType} from "../../../types/types";
+import {InjectedFormProps, SubmitHandler} from "redux-form/lib/reduxForm";
 
 
 type PropsInfoType = {
-    profile: profileType
+    profile: profileType | null
     savePhoto: (a: number) => void
-    saveProfile: (profile: profileType) => void
+    saveProfile: (profile: profileType) => Promise<any>
     isOwner: boolean
     status: string
     updateStatus: (status: string) => void
@@ -64,6 +65,7 @@ const ProfileInfo: React.FC<PropsInfoType> = props => {
         </div>
     );
 };
+
 
 type PropsDataType = {
     profile: profileType
