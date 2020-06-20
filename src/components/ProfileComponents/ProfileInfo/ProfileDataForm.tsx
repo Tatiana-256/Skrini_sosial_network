@@ -1,14 +1,16 @@
-import React, {FormEvent} from "react";
+import React from "react";
 import {
     createField,
     Input,
     Textarea
 } from "../../common/FormsControls/FormsControls";
 import {InjectedFormProps, reduxForm} from "redux-form";
-import {profileType} from "../../../types/types";
+import { ProfileFormDataValuesTypesKeys } from "./ProfileInfo";
 
 
-const ProfileDataForm : React.FC<InjectedFormProps> = props => {
+type PropsType = {}
+
+const ProfileDataForm : React.FC<InjectedFormProps<ProfileFormDataValuesTypesKeys, PropsType>&PropsType> = (props) => {
     return (
         <form onSubmit={props.handleSubmit}>
             <div>
@@ -40,7 +42,7 @@ const ProfileDataForm : React.FC<InjectedFormProps> = props => {
     );
 };
 
-const ProfileDataFormReduxForm = reduxForm({form: "edit-profile"})(
+const ProfileDataFormReduxForm = reduxForm<any>({form: "edit-profile"})(
     ProfileDataForm
 );
 

@@ -8,21 +8,14 @@ import {
     savePhoto,
     saveProfile
 } from "../../redux/profile-reducer";
-import {withRouter, Redirect} from "react-router-dom";
+import {withRouter} from "react-router-dom";
 import {withAuthRedirect} from "../hoc/withAuthRedirect";
 import {compose} from "redux";
-import {profileType, userType} from "../../types/types";
+import {profileType} from "../../types/types";
 import {AppStateType} from "../../redux/redux-store";
 import {RouteComponentProps} from "react-router";
 
 type mapStateToPropsType = ReturnType<typeof mapStateToProps>
-
-// type mapStateToPropsType = {
-//     profile: profileType | null,
-//     status: string,
-//     authorizedUserId: string | null,
-//     isAuth: boolean
-// }
 
 
 type mapDispatchToPropsType = {

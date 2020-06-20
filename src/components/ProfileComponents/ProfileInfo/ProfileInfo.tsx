@@ -6,17 +6,19 @@ import userPhoto from "../../../assets/images.png";
 import ProfileDataForm from "./ProfileDataForm";
 import {profileType} from "../../../types/types";
 import {InjectedFormProps, SubmitHandler} from "redux-form/lib/reduxForm";
+import {messageType} from "../../../redux/dialogs-reducer";
 
 
 type PropsInfoType = {
     profile: profileType | null
     savePhoto: (a: number) => void
-    saveProfile: (profile: profileType) => Promise<any>
+     saveProfile: (profile: profileType) => Promise<any>
     isOwner: boolean
     status: string
     updateStatus: (status: string) => void
 }
 
+export type ProfileFormDataValuesTypesKeys = Extract<keyof profileType, string>
 
 const ProfileInfo: React.FC<PropsInfoType> = props => {
     let [editMode, setEditMode] = useState(false);
