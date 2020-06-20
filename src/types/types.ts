@@ -1,5 +1,5 @@
 export type postType = {
-    id: number | null,
+    id: string | null,
     message: string | null,
     image: string | null,
     like: boolean

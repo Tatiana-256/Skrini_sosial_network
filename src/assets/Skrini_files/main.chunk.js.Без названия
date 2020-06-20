@@ -254,13 +254,13 @@ if (true) {
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];
         }
-        
+
         update(newContent);
       }
     )
   }
 
-  module.hot.dispose(function() { 
+  module.hot.dispose(function() {
     update();
   });
 }
@@ -280,13 +280,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
 /* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Nav_Nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Nav/Nav */ "./src/components/Nav/Nav.jsx");
+/* harmony import */ var _components_Nav_Nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Nav/Nav */ "./src/components/Nav/Nav.tsx");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _components_News_News__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/News/News */ "./src/components/News/News.jsx");
 /* harmony import */ var _components_Music_Music__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Music/Music */ "./src/components/Music/Music.jsx");
 /* harmony import */ var _components_Settings_Settings__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/Settings/Settings */ "./src/components/Settings/Settings.jsx");
 /* harmony import */ var _index__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./index */ "./src/index.js");
-/* harmony import */ var _components_Dialogs_DialogsContainer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/Dialogs/DialogsContainer */ "./src/components/Dialogs/DialogsContainer.jsx");
+/* harmony import */ var _components_Dialogs_DialogsContainer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/Dialogs/DialogsContainer */ "./src/components/Dialogs/DialogsContainer.tsx");
 /* harmony import */ var _components_Users_UsersContainer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/Users/UsersContainer */ "./src/components/Users/UsersContainer.tsx");
 /* harmony import */ var _components_ProfileComponents_ProfileContainer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/ProfileComponents/ProfileContainer */ "./src/components/ProfileComponents/ProfileContainer.tsx");
 /* harmony import */ var _components_Header_HeaderContainer__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/Header/HeaderContainer */ "./src/components/Header/HeaderContainer.jsx");
@@ -444,9 +444,9 @@ module.exports = __webpack_require__.p + "static/media/loading.3eb3f5ee.svg";
 
 /***/ }),
 
-/***/ "./src/components/Dialogs/DialogItem/DialogItem.jsx":
+/***/ "./src/components/Dialogs/DialogItem/DialogItem.tsx":
 /*!**********************************************************!*\
-  !*** ./src/components/Dialogs/DialogItem/DialogItem.jsx ***!
+  !*** ./src/components/Dialogs/DialogItem/DialogItem.tsx ***!
   \**********************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -458,7 +458,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Dialogs.module.css */ "./src/components/Dialogs/Dialogs.module.css");
 /* harmony import */ var _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Dialogs\\DialogItem\\DialogItem.jsx";
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Dialogs\\DialogItem\\DialogItem.tsx";
 
 
 
@@ -486,9 +486,9 @@ const DialogItem = props => {
 
 /***/ }),
 
-/***/ "./src/components/Dialogs/Dialogs.jsx":
+/***/ "./src/components/Dialogs/Dialogs.tsx":
 /*!********************************************!*\
-  !*** ./src/components/Dialogs/Dialogs.jsx ***!
+  !*** ./src/components/Dialogs/Dialogs.tsx ***!
   \********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -499,9 +499,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Dialogs.module.css */ "./src/components/Dialogs/Dialogs.module.css");
 /* harmony import */ var _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _DialogItem_DialogItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./DialogItem/DialogItem */ "./src/components/Dialogs/DialogItem/DialogItem.jsx");
-/* harmony import */ var _Message_Message__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Message/Message */ "./src/components/Dialogs/Message/Message.jsx");
-var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Dialogs\\Dialogs.jsx";
+/* harmony import */ var _DialogItem_DialogItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./DialogItem/DialogItem */ "./src/components/Dialogs/DialogItem/DialogItem.tsx");
+/* harmony import */ var _Message_Message__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Message/Message */ "./src/components/Dialogs/Message/Message.tsx");
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Dialogs\\Dialogs.tsx";
 
 
 
@@ -634,22 +634,22 @@ if (true) {
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];
         }
-        
+
         update(newContent);
       }
     )
   }
 
-  module.hot.dispose(function() { 
+  module.hot.dispose(function() {
     update();
   });
 }
 
 /***/ }),
 
-/***/ "./src/components/Dialogs/DialogsContainer.jsx":
+/***/ "./src/components/Dialogs/DialogsContainer.tsx":
 /*!*****************************************************!*\
-  !*** ./src/components/Dialogs/DialogsContainer.jsx ***!
+  !*** ./src/components/Dialogs/DialogsContainer.tsx ***!
   \*****************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -657,7 +657,7 @@ if (true) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _redux_dialogs_reducer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../redux/dialogs-reducer */ "./src/components/redux/dialogs-reducer.ts");
-/* harmony import */ var _Dialogs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Dialogs */ "./src/components/Dialogs/Dialogs.jsx");
+/* harmony import */ var _Dialogs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Dialogs */ "./src/components/Dialogs/Dialogs.tsx");
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 
 
@@ -687,9 +687,9 @@ const DialogsContainer = Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connec
 
 /***/ }),
 
-/***/ "./src/components/Dialogs/Message/Message.jsx":
+/***/ "./src/components/Dialogs/Message/Message.tsx":
 /*!****************************************************!*\
-  !*** ./src/components/Dialogs/Message/Message.jsx ***!
+  !*** ./src/components/Dialogs/Message/Message.tsx ***!
   \****************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -700,7 +700,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Dialogs.module.css */ "./src/components/Dialogs/Dialogs.module.css");
 /* harmony import */ var _Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Dialogs_module_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Dialogs\\Message\\Message.jsx";
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Dialogs\\Message\\Message.tsx";
 
 
 
@@ -814,13 +814,13 @@ if (true) {
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];
         }
-        
+
         update(newContent);
       }
     )
   }
 
-  module.hot.dispose(function() { 
+  module.hot.dispose(function() {
     update();
   });
 }
@@ -955,22 +955,22 @@ if (true) {
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];
         }
-        
+
         update(newContent);
       }
     )
   }
 
-  module.hot.dispose(function() { 
+  module.hot.dispose(function() {
     update();
   });
 }
 
 /***/ }),
 
-/***/ "./src/components/Nav/Nav.jsx":
+/***/ "./src/components/Nav/Nav.tsx":
 /*!************************************!*\
-  !*** ./src/components/Nav/Nav.jsx ***!
+  !*** ./src/components/Nav/Nav.tsx ***!
   \************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -982,7 +982,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Nav_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Nav.module.css */ "./src/components/Nav/Nav.module.css");
 /* harmony import */ var _Nav_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Nav_module_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Nav\\Nav.jsx";
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Nav\\Nav.tsx";
 
 
 
@@ -1126,13 +1126,13 @@ if (true) {
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];
         }
-        
+
         update(newContent);
       }
     )
   }
 
-  module.hot.dispose(function() { 
+  module.hot.dispose(function() {
     update();
   });
 }
@@ -1205,13 +1205,13 @@ if (true) {
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];
         }
-        
+
         update(newContent);
       }
     )
   }
 
-  module.hot.dispose(function() { 
+  module.hot.dispose(function() {
     update();
   });
 }
@@ -1349,13 +1349,13 @@ if (true) {
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];
         }
-        
+
         update(newContent);
       }
     )
   }
 
-  module.hot.dispose(function() { 
+  module.hot.dispose(function() {
     update();
   });
 }
@@ -1500,13 +1500,13 @@ if (true) {
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];
         }
-        
+
         update(newContent);
       }
     )
   }
 
-  module.hot.dispose(function() { 
+  module.hot.dispose(function() {
     update();
   });
 }
@@ -1719,13 +1719,13 @@ if (true) {
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];
         }
-        
+
         update(newContent);
       }
     )
   }
 
-  module.hot.dispose(function() { 
+  module.hot.dispose(function() {
     update();
   });
 }
@@ -1798,13 +1798,13 @@ if (true) {
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];
         }
-        
+
         update(newContent);
       }
     )
   }
 
-  module.hot.dispose(function() { 
+  module.hot.dispose(function() {
     update();
   });
 }
@@ -2035,13 +2035,13 @@ if (true) {
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];
         }
-        
+
         update(newContent);
       }
     )
   }
 
-  module.hot.dispose(function() { 
+  module.hot.dispose(function() {
     update();
   });
 }
@@ -2713,13 +2713,13 @@ if (true) {
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];
         }
-        
+
         update(newContent);
       }
     )
   }
 
-  module.hot.dispose(function() { 
+  module.hot.dispose(function() {
     update();
   });
 }

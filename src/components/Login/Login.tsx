@@ -21,10 +21,10 @@ type PropsType = mapStatePropsType & mapDispatchPropsType
 
 
 export type loginFormDataValuesType = {
-    email: string, password: string, rememberMe: boolean
+    email: string, password: string, rememberMe: boolean, message: string
 }
 
-type loginFormDataValuesTypesKeys = Extract<keyof loginFormDataValuesType, string>
+export type loginFormDataValuesTypesKeys = Extract<keyof loginFormDataValuesType, string>
 
 
 const Login: React.FC<PropsType> = props => {
