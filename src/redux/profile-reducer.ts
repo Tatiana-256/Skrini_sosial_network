@@ -36,7 +36,7 @@ let initialState = {
 
             like: true
         }
-    ] as Array<postType>,
+    ] as Array<any>,
     profile: null as profileType | null,
     status: "Put your status",
     newPostText: ''

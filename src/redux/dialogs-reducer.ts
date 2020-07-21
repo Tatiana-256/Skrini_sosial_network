@@ -1,8 +1,9 @@
-import store from "./store";
-import {InferActionsTypes} from "./redux-store";
-import {userActions} from "./users-reducer";
+import {AppStateType, baseThunkType, InferActionsTypes} from "./redux-store";
+import {messageAPI} from "../api/messages-api";
 
 const ADD_MESSAGE = "dialogs/ADD_MESSAGE";
+const GET_DIALOGS_SUCCESS = 'dialogs/GET_DIALOGS_SUCCESS'
+const IS_ERROR = 'dialogs/ IS_ERROR'
 
 let initialState = {
     dialogsData: [
@@ -28,7 +29,10 @@ let initialState = {
         {id: "1", message: "Hey you"},
         {id: "2", message: "How are you?"},
         {id: "3", message: "What do you do?"}
-    ] as Array<messageType>
+    ] as Array<messageType>,
+
+    selectedDialogId: null,
+    isError: false
 };
 
 // _________________TYPES__________________
@@ -72,7 +76,31 @@ export const dialogActions = {
     addMessageActionCreator: (addNewMessage: string) => ({
         type: ADD_MESSAGE,
         addNewMessage
+    } as const),
+    getDialogsSuccess: (dialogs: Array<messageType>) => ({
+        type: GET_DIALOGS_SUCCESS,
+        payload: dialogs
+    } as const),
+    isError: () => ({
+        type: IS_ERROR
     } as const)
 }
 
+
 export default dialogsReducer;
+
+
+//__________________ thunk-creators __________________
+
+type thunkType = baseThunkType<actionsTypes>
+
+export const getDialogs = (): thunkType => async (dispatch, getState: () => AppStateType) => {
+    try {
+        const res = await messageAPI.getDialogs()
+        dispatch(dialogActions.getDialogsSuccess(res))
+    } catch (e) {
+        dispatch(dialogActions.isError())
+        console.error(e)
+    }
+
+}

@@ -1,14 +1,24 @@
 import React from "react";
 import classes from "./Post.module.css";
 
-const Post = props => {
-    console.log(props.like)
+
+type PropsType = {
+    image: string,
+    like: boolean,
+    likecount: number,
+    postId: string,
+    postText: string,
+    deleteLike: (id: string) => void,
+    setLike: (id: string) => void
+}
+
+const Post = (props: PropsType) => {
     return (
 
         <div>
             <div className={classes.items}>
-                <img src={props.image}></img>
-                {props.m}
+                <img src={props.image}/>
+                {props.postText}
             </div>
             <div>
                 {props.like ?

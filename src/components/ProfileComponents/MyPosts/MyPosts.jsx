@@ -13,7 +13,7 @@ const MyPosts = React.memo(props => {
         props.deleteLike(postId)
     }
     let onePost = props.posts.map(post => (
-        <Post postId={post.id} m={post.message}
+        <Post postId={post.id} postText={post.message}
               setLike={setLike}
               deleteLike={deleteLike}
               like={post.like}

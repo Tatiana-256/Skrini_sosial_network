@@ -10,7 +10,9 @@ type PropsType = {
     profile: profileType | null
     status: string
     updateStatus: (status: string) => void
-    saveProfile: (profile: profileType) => Promise<any>
+    saveProfile: (profile: profileType) => void
+    handleSubmit?: (form: profileType) => void
+
 }
 
 

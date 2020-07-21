@@ -289,7 +289,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Dialogs_DialogsContainer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/Dialogs/DialogsContainer */ "./src/components/Dialogs/DialogsContainer.tsx");
 /* harmony import */ var _components_Users_UsersContainer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/Users/UsersContainer */ "./src/components/Users/UsersContainer.tsx");
 /* harmony import */ var _components_ProfileComponents_ProfileContainer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/ProfileComponents/ProfileContainer */ "./src/components/ProfileComponents/ProfileContainer.tsx");
-/* harmony import */ var _components_Header_HeaderContainer__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/Header/HeaderContainer */ "./src/components/Header/HeaderContainer.jsx");
+/* harmony import */ var _components_Header_HeaderContainer__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/Header/HeaderContainer */ "./src/components/Header/HeaderContainer.tsx");
 var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\App.js";
 
 
@@ -719,9 +719,9 @@ const Message = props => {
 
 /***/ }),
 
-/***/ "./src/components/Header/Header.jsx":
+/***/ "./src/components/Header/Header.tsx":
 /*!******************************************!*\
-  !*** ./src/components/Header/Header.jsx ***!
+  !*** ./src/components/Header/Header.tsx ***!
   \******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -733,7 +733,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Header_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header.module.css */ "./src/components/Header/Header.module.css");
 /* harmony import */ var _Header_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Header_module_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Header\\Header.jsx";
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Header\\Header.tsx";
 
 
 
@@ -827,9 +827,9 @@ if (true) {
 
 /***/ }),
 
-/***/ "./src/components/Header/HeaderContainer.jsx":
+/***/ "./src/components/Header/HeaderContainer.tsx":
 /*!***************************************************!*\
-  !*** ./src/components/Header/HeaderContainer.jsx ***!
+  !*** ./src/components/Header/HeaderContainer.tsx ***!
   \***************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -838,12 +838,12 @@ if (true) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./src/components/Header/Header.jsx");
+/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./src/components/Header/Header.tsx");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 /* harmony import */ var _redux_auth_reducer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../redux/auth-reducer */ "./src/components/redux/auth-reducer.ts");
-var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Header\\HeaderContainer.jsx";
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\Header\\HeaderContainer.tsx";
 
 
 
@@ -1231,7 +1231,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _MyPosts_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MyPosts.module.css */ "./src/components/ProfileComponents/MyPosts/MyPosts.module.css");
 /* harmony import */ var _MyPosts_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_MyPosts_module_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Post_Post__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Post/Post */ "./src/components/ProfileComponents/MyPosts/Post/Post.jsx");
+/* harmony import */ var _Post_Post__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Post/Post */ "./src/components/ProfileComponents/MyPosts/Post/Post.tsx");
 /* harmony import */ var _redux_profile_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../redux/profile-reducer */ "./src/components/redux/profile-reducer.ts");
 var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\ProfileComponents\\MyPosts\\MyPosts.jsx";
 
@@ -1404,9 +1404,9 @@ const MyPostsContainer = Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connec
 
 /***/ }),
 
-/***/ "./src/components/ProfileComponents/MyPosts/Post/Post.jsx":
+/***/ "./src/components/ProfileComponents/MyPosts/Post/Post.tsx":
 /*!****************************************************************!*\
-  !*** ./src/components/ProfileComponents/MyPosts/Post/Post.jsx ***!
+  !*** ./src/components/ProfileComponents/MyPosts/Post/Post.tsx ***!
   \****************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1419,7 +1419,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Post_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Post_module_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var util__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! util */ "./node_modules/node-libs-browser/node_modules/util/util.js");
 /* harmony import */ var util__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(util__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\ProfileComponents\\MyPosts\\Post\\Post.jsx";
+var _jsxFileName = "C:\\Users\\\u0422\u0430\u0442\u044C\u044F\u043D\u0430\\Desktop\\programing\\Social\\Skrini_social_network\\src\\components\\ProfileComponents\\MyPosts\\Post\\Post.tsx";
 
 
 

@@ -1,21 +1,21 @@
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 import classes from "./ProfileInfo.module.css";
 import Preloader from "../../common/Preloader/Preloader";
 import ProfileStatusWithHooks from "./ProfileStatus/ProfileStatusWithHooks";
 import userPhoto from "../../../assets/images.png";
 import ProfileDataForm from "./ProfileDataForm";
 import {profileType} from "../../../types/types";
-import {InjectedFormProps, SubmitHandler} from "redux-form/lib/reduxForm";
-import {messageType} from "../../../redux/dialogs-reducer";
 
 
 type PropsInfoType = {
     profile: profileType | null
     savePhoto: (a: number) => void
-     saveProfile: (profile: profileType) => Promise<any>
+    saveProfile: (profile: profileType) => void
     isOwner: boolean
     status: string
     updateStatus: (status: string) => void
+    handleSubmit?: (form: profileType) => void
+
 }
 
 export type ProfileFormDataValuesTypesKeys = Extract<keyof profileType, string>
@@ -45,20 +45,16 @@ const ProfileInfo: React.FC<PropsInfoType> = props => {
                     src={props.profile.photos.large || userPhoto}
                 />
                 {props.isOwner && <input type={"file"} onChange={mainPhotoSelected}/>}
-                {editMode ? (
-                    <ProfileDataForm
-                        initialValues={props.profile}
-                        handleSubmit={handleSubmit}
-                    />
-                ) : (
-                    <ProfileData
-                        profile={props.profile}
-                        isOwner={props.isOwner}
-                        goToAditMode={() => {
-                            setEditMode(true);
-                        }}
-                    />
-                )}
+                {editMode ? <ProfileDataForm
+                    initialValues={props.profile}
+                    // handleSubmit={handleSubmit}
+                /> : <ProfileData
+                    profile={props.profile}
+                    isOwner={props.isOwner}
+                    goToAditMode={() => {
+                        setEditMode(true);
+                    }}
+                />}
                 <ProfileStatusWithHooks
                     status={props.status}
                     updateStatus={props.updateStatus}
@@ -103,5 +99,6 @@ const ProfileData: React.FC<PropsDataType> = props => {
         </div>
     );
 };
+
 
 export default ProfileInfo;

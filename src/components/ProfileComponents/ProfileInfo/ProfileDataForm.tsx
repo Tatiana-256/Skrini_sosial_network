@@ -1,16 +1,10 @@
 import React from "react";
-import {
-    createField,
-    Input,
-    Textarea
-} from "../../common/FormsControls/FormsControls";
+import {createField, Input, Textarea} from "../../common/FormsControls/FormsControls";
 import {InjectedFormProps, reduxForm} from "redux-form";
-import { ProfileFormDataValuesTypesKeys } from "./ProfileInfo";
+import {ProfileFormDataValuesTypesKeys} from "./ProfileInfo";
 
 
-type PropsType = {}
-
-const ProfileDataForm : React.FC<InjectedFormProps<ProfileFormDataValuesTypesKeys, PropsType>&PropsType> = (props) => {
+const ProfileDataForm: React.FC<InjectedFormProps<ProfileFormDataValuesTypesKeys>> = (props) => {
     return (
         <form onSubmit={props.handleSubmit}>
             <div>
